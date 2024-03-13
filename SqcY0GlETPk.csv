@@ -1,0 +1,1296 @@
+Username,Comment
+@programmingwithmosh,"- Want to learn more? Get my complete React mastery course: http://bit.ly/3l0vWYR
+- Subscribe for more videos like this: https://goo.gl/6PYaGF"
+@pycodedigi,This is amazing
+@brendanpeterson5411,My genuine thanks. You have a great teaching style.
+@Juan-jc6oc,Excellent tutorial.
+@tskhomelidze,how do we make our terminal similar to yours ?
+@MindCode86,"Good tutorial, fast, precise and good information density."
+@el-3omda476,is this outdated or something cause i dont have tsx extension on my files it's js and the folder structure is different ??
+@rafalp6584,Do someone know what vsc theme Josh uses?
+@agony4181,"Im used Enum for state...
+
+export enum ButtonState {
+  primary = 'btn-primary',
+  secondary = 'btn-secondary',
+  success = 'btn-success',
+  danger = 'btn-danger',
+  warning = 'btn-warning',
+  info = 'btn-info',
+  light = 'btn-light',
+  dark = 'btn-dark',
+  link = 'btn-link',
+}
+
+export const MyButton = ({
+  children,
+  state = ButtonState.primary,
+  onClick,
+}: Prop) => {
+  return (
+    <button type=""button"" className={`btn ${state}`} onClick={onClick}>
+      {children}
+    </button>
+  )
+}"
+@brandongaynier6818,Went to the website and purchased the course... hands down the best money I've ever spent.
+@user-pz1ys8jj4m,"Why do you zoom in to the code so much? I want to be able to see more code than a few truncated lines. 
+
+Also seeing a warning on ""onClick={handleClick}"":
+
+
+Type '(event: MouseEvent) => void' is not assignable to type 'MouseEventHandler<HTMLLIElement>'.
+  Types of parameters 'event' and 'event' are incompatible.
+
+Solution: ""onClick={() => handleClick}"""
+@Kariim_Atef,good luck
+@Kariim_Atef,you're the best
+@Kariim_Atef,thanks so much
+@vipulsahu3992,🖤
+@ilwozzone,"31:55 
+
+The fix is to specify ""className""
+
+<li className=""list-group-item"">{item}</li>"
+@MehrabEvanC94,The best thing I like from his contents that he provides a great overview review with the simplest explanation in 1-2 hours duration which is very easy to grab the basics which is the most required objectives for a software engineer to go for agile approach.
+@user-xy8su2iw5y,Short-time video uploaded then please
+@rydinorwin,"Not great with terminal, I got to 8:26, code . did not work, Mosh says if that does not work simply drag and drop that folder into VS Code,, helps to do this would be appreciated! Many thanks! Yeah, so far I can't get the server in Vite going!?"
+@user-yi6cf9qt6z,The video is great but there's like sooo many ads!!!!
+@TKollaKid,"This course was incomplete. I purchased the React course bundle a few months ago and went through both courses. Doesn't provide enough depth and breadth. Missed a lot of important concepts. What I particularly found disappointing was that authentication was not covered. Instead, at the end of the last course, he says buy my Next course to learn authentication. I don't want to buy and take another course to learn Next. I want to learn React. I found that dishonest. I also don''t like how much refactoring he does. It makes for messy notes and difficult to follow. Do it correctly in the first place. I've literally purchased over 10 courses from Mosh over the past couple of years and most are great. But this one fell short. It felt rushed. I ended up taking the React course by Maximilian Schwarzmüller on Udemy. It is significantly better. I have a university degree in computer science with 7 years of experience."
+@vinaysharma5008,🔥
+@GOODBOY-vt1cf,50:21
+@nacholiron,"The ""passing children"" section didn't work at all. The Alert worked while passing the literal, but the changes to pass it as Props, didn't work. I tripled checked, and my alert gets the blue component but the text remains undefined when consoled. From that point on, nothing else worked as expected despite having the exact same code."
+@steveelliott8852,Hi Guys is this course good for a beginner I'm good at html & css I'm OK at javascript still learning people keep on telling me to learn react thanks Steve
+@meditationmusic9488,This course is a game like for me. Enjoyed 1000%
+@kingshanaman,"How did you get your terminal looking like that, with colours and git branch names?"
+@nacholiron,what icon set you use in vs code?
+@budsodalsky,"""beautiful"""
+@trackstar127,"At the 1:00:38 mark the shortcut you have for Alerts is not working for me. I followed your steps at least 10 times now and keep running into the same issues. The rafce is working to generate the code but when I go back to App.tsx, the syntax involving <Alert /> isn't being recognzed. 
+
+Alert.tsx is also automatically removing the () that should come after return statement."
+@megamasha,"Anyone else just get stuck at adding the List Group? Everything's fine at 23:19, but then after following all the instructions (and double- and tripple-checking my changes), the page is blank at 24:38. If I include a ListGroup component in the page, the page is blank. If I remove it and just put a simple tag lilke h1, it still displays fine."
+@Hari983,Amazing tutorial. Great flow and easy to understand while still being well-detailed.
+@udaym4204,can you share your cs code theme always love your video Mosh Thank you .
+@TheDragonchecker,"Awesome tutorial, thank you so much!"
+@bharatihattikal,i have  one application  where i need to add the some api's which will impact the   complete app how can
+@wildpett,Great tutorial -- very practical .... thx for posting
+@anikait2953,The soundtracks used in the video between different parts give a very positive vibe
+@bohanwang-nt7qz,"🎯Course outline for quick navigation:
+
+[00:02-01:42]1. Ultimate react course
+-[00:22-00:53]React course with production-grade video games app, including dark/light modes and search/filter features.
+-[01:04-01:42]Upcoming react course covers advanced topics like routing, state management, authentication, and more, by mosh hamadani, a software engineer with over 20 years of experience.
+
+[01:43-16:33]2. Learning react and setting up development environment
+-[02:14-02:39]Learning react using typescript can catch errors early, saving time and headaches.
+-[02:59-04:06]React, the most widely used javascript library, simplifies front-end development by creating and updating dom elements efficiently.
+-[04:50-05:17]Setting up development environment with react, requiring node version 16 or higher. node version on the machine is 19.
+-[06:32-07:03]Comparing create react app (cra) and vite for app creation, with vite being faster and providing smaller bundle sizes.
+-[14:18-15:14]Import message component, use self-closing syntax, hmr for automatic refresh.
+
+[16:34-26:18]3. React fundamentals & complete course overview
+-[16:34-17:22]Jsx simplifies ui description, react uses virtual dom to update state.
+-[18:53-19:19]React is a versatile javascript library for building uis across platforms.
+-[21:07-21:34]Fundamental concepts of react applications covered, including building components and managing state.
+-[21:54-22:17]Using bootstrap, a popular css library, version 5.2.3 for styling applications.
+
+[26:18-38:24]4. React jsx formatting, rendering, and basics
+-[26:18-26:47]Configured predier as default code formatter for typescript jsx files, improving formatting and automatically wrapping jsx markup in parenthesis.
+-[28:21-28:53]Using a fragment instead of an extra div in react for efficiency.
+-[30:14-30:46]In jsx, use the map method for converting items to a different type.
+-[32:25-32:55]Each list item should have a unique key prop in react to enable dynamic updates.
+-[34:09-34:59]Reformatted code with 3dr, reduced duplication using jsx expressions instead of if statement.
+
+[38:25-44:03]5. React event handling
+-[38:25-39:20]React developers use dynamic rendering. added bootstrap class to items. implemented click event handling.
+-[40:04-41:23]Using item as key, logging item and index, observing browser event in react
+-[41:48-42:21]For complex logic, move it into a separate function to maintain clarity and organization.
+-[43:16-43:49]Type annotation in typescript specifies variable types, enabling access to properties of objects.
+
+[44:04-01:01:01]6. React fundamentals and event handling
+-[44:04-44:32]Function handle click is referenced to handle click event in react.
+-[45:51-46:23]Checking selected index to add classes dynamically.
+-[46:24-48:07]Handling click event, using usestate hook for state management.
+-[47:35-48:07]State hook in react allows managing changing component data, initialized with a value of -1.
+-[48:22-48:53]React's updater function notifies changes in component state, triggering dom updates.
+-[49:38-50:34]Using react to manage component state for dynamic updates.
+-[51:31-52:20]Using typescript interface to define object shape with items as array and heading as string.
+-[55:13-55:40]Avoid logic in list group for reusability. notify app component when item is selected.
+-[56:46-57:11]Typescript compiler helps catch potential problems early on
+-[57:38-59:03]Passing item as function argument, updating state, and difference between props and state.
+-[59:42-01:00:12]React components can have changing state and props, which trigger re-rendering and updating the dom; passing children to components is also possible.
+
+[01:01:01-01:19:56]7. React components in action
+-[01:04:50-01:05:44]Using children prop, passing html content to alert component. react dev tools for inspecting and analyzing react applications available for chrome, firefox, and microsoft edge.
+-[01:09:21-01:09:49]Using interface to define props shape, setting children type to string, rendering children.
+-[01:10:50-01:11:16]App component error fixed with inline function, logging clicks, and implementing button color.
+-[01:13:00-01:13:26]Using typescript to catch bugs early, by setting type to string literal 'primary' for button component.
+-[01:19:19-01:19:48]Complete react course: 8 hours of content, exercises, cheat sheets, and 30-day money-back guarantee.
+
+offered by Coursnap"
+@leeeric6292,06:50 Don't understand why don't directly  done the setup in vscode terminal at the very beginning?
+@bartosz9476,F*** this is so complicated
+@chakradharreddy7954,Any one need react js support please contact me….
+@user-td6gb7td9g,This is very helpful and easy to understand.
+@walius1988,This was my very first tutorial for React and I loved it. I am a back end developer and I want to learn React.
+@anushkumarsellamuthu9203,Good course which helps to get started with the basics of react 👍
+@senju31,I just finished the paid course and I must say it was great. I have been using regular/plain JavaScript for years and was holding out on learning React. This was a great introduction and was very digestible. Much love from Jamaica!
+@azubukopeter8884,if you have tried taking up react on udemy the made it so difficult but this instructor is smooth wow iim excited but i wish it was on js instead of type script
+@stivomoses8882,"i'm encountering the following error message: 
+> error syscall spawn C:\Windows\system32\
+> error path C:\Users\Steve
+> error errno -4058
+> error enoent spawn C:\Windows\system32\ ENOENT
+> error enoent This is related to npm not being able to find a file."
+@kekiir,How to stop prittier to wrap line breaks?
+@ddam712,an add ever 4 minutes is too much but great content
+@fase8729,01:00:00 Passing Children
+@loky324,"Thanks a lot, I had a lot of fun learning with your video! "
+@MichaeljMr,"Thank you Mosh, took me a couple days to complete this first video, I watched it over the weekend without coding along and rewatched it over the past 2 days to try the button and alert solution myself (failed miserably :p)... it's just a case of trying to remember the syntax and how to build components consitently. I just bought your react 18 for beginners for 17 eu which is a fair price for 8 hours of content. Might consider subscribing for a couple months after I complete this first one - will see how it goes! Looking to finally switch careers and become a software developer - hope this will be the boost in knowledge I need to launch my new carreer! Cheers and best of luck!"
+@huhtis6087,"Hey Mosh and thank you for great tutorial. In this tutorial I also learned how to create connect on VS Code to my Ubuntu-server and create these application to there. But I have a question. in Button component, why my bootstrap is not working. My code is identical to your code, but still button is basic Black and white button. className (property) says ""undefined"" but other classNames has been worked well."
+@miamoto5040,You put into one and a half hour what other creators put into 10-11 hours.
+@amitbt69,Great Tutorial! thanks.
+@jabo-8600,Does the hook work in same file as the interface props?? Because me it is generating an error everytime I try to combine them is there any assistance I can get??
+@bountyhunter96,"For me, the beginning ""00:06:24 Creating a React App"" only works if I open main.tsx and remove the curly brackets around ""App"" in the import line, why is that?"
+@santoshs988,"Getting an error to strat dev server
+
+PS C:\Windows\System32\React-app_v01> npm run dev
+
+> react-app-v01@0.0.0 dev
+> vite
+
+failed to load config from C:\Windows\System32\React-app_v01\vite.config.ts
+error when starting dev server:
+Error: EPERM: operation not permitted, open 'C:\Windows\System32\React-app_v01\vite.config.ts.timestamp-1705833923925-3e49e4e26caff.mjs'
+    at async open (node:internal/fs/promises:633:25)
+    at async Object.writeFile (node:internal/fs/promises:1212:14)
+    at async loadConfigFromBundledFile (file:///C:/Windows/System32/React-app_v01/node_modules/vite/dist/node/chunks/dep-9A4-l-43.js:68381:9)
+    at async loadConfigFromFile (file:///C:/Windows/System32/React-app_v01/node_modules/vite/dist/node/chunks/dep-9A4-l-43.js:68240:28)
+    at async resolveConfig (file:///C:/Windows/System32/React-app_v01/node_modules/vite/dist/node/chunks/dep-9A4-l-43.js:67841:28)
+    at async _createServer (file:///C:/Windows/System32/React-app_v01/node_modules/vite/dist/node/chunks/dep-9A4-l-43.js:60327:20)
+    at async CAC.<anonymous> (file:///C:/Windows/System32/React-app_v01/node_modules/vite/dist/node/cli.js:764:24)
+PS C:\Windows\System32\React-app_v01>"
+@survivelikehoneybadger,As an Angular developer it hurts me bad to see js code mixed within template and function names in PascalCase 😭
+@_KimAngell,0:25 the way that monitor was shaking 💀
+@gugisterka,"One of the best ways to explain coding things I've ever heard!! Mosh, you're genius "
+@Involvedplays,God this guy puts so many ads on his video. Skipped
+@ilyas8523,"Great video, thank you"
+@razawanr5035,Bravo best 🩷
+@zisanmahmud23,30:07
+@samuelgesang7394,Do you still have to import { Fragment } to use fragments?
+@martezcarr5886,"Running on Windows and I cant select using arrow keys, so im stuck at the beginning"
+@SegmentationFaultCoreDumped,Did anyone else notice the Like Button light up when he said 'like button' around 4:33
+@bobbyb6412,"can't even get Hello World to show up, so depressing"
+@ktl0113,"this is really amazing, but also really fast! even seems like you increase the speed of your recording? I have to pause all the time to copy your moves next to the video.. so for me being new to react - as constructive feedback, it could be a few steps slower. thanks for the great work <3"
+@mohamadjijan2486,"Hi
+Sorry but where is the games website you said about in the start of this video
+I only saw some alerts and buttons
+No database and nothing mire than complex solutions for simple mission
+Sorry again but I expected something else"
+@AF-bn3ps,I wish this was in JAVASCRIPT :(.
+@YoussefMohamedOfficial,any body noticed in 04:34 the like and dislike button shines!!
+@LoeRL1,"Great tutorial but the price for the course in the website is ridiculous. I would love to buy the course but when compared to other prominent web tutors, the price is just not competitive. When the UK tax is applied for the delivery??? it becomes even more unattainable. 
+Would love to see the whole course, maybe one day but not at this price."
+@hulk8254,bad
+@user-iv1oz2hx9u,Is this course usefull for beginners
+@thatohlatshwayo5032,Thank you Mosh!! You are the best!!!
+@daminisuthar9790,Absolutely well defined and amazing content.  Finally got something which is easy and quick video to refresh React.
+@Ben-pg5yl,"Personal timestamp:
+1:07:30"
+@muzammalhussain4887,"hy mosh!
+I'm your big fan. I'm able to have a job just because of you. Whenever i want to learn something new I fist search wether you have uploaded that course or not. I have completed your nodejs course and now I want to start nestjs. But unfortunately you have not recorded that. I hope you will soon look into that. 
+Best wishes from Pakistan.
+Regards: Muzammal Hussain (nodejs developer)"
+@enikhila9906,The best video ever!!!!!!!
+@guy1407,"Thanks for the video mosh
+Can you please tell us which extension told you the errors (e.g time = 57:06)"
+@doublewhopper67,Another panacea video.... You feel good after staring blankly at it... But the next day realise you hadn't retained a thing. 😂.
+@neoblackcyptron,"I tried deploying my app built with ReactJS+ TypeScript and Vite.  It does not play well at all on AWS EC2.  Vite was throwing many errors. I hope I can build a new project without Vite,  just with ReactJS and Typescript. My official Launch was 1st Jan 2024. But now it is not possible anymore. Other than that everything in this tutorial was good.  I think I will just put the UI alone and setup my Website. for now. Will have to do the painfull process of either working with vanilla ReactJS or anything else out there to fix this issue. Hopefully I won't have to rework my AI Webservice integration.s"
+@desonglll,Excellent!!!
+@Tamizh...,.
+@Drian12_1-pn3oi,Really good course fun and interactive usually i get bored with other courses on YouTube and lose interest but with Mosh its very nice and fun. I would love to purchase your monthly sub however the only thing that is missing that I need is Laravel. Will you ever create Laravel course? Thanks
+@ryanhassan2232,Took me little more than 1 hour but I’ve finished it
+@PongGod,"Kudos for putting together such an excellent tutorial. This is one of the extremely rare instances where I went through an entire programming tutorial and everything actually worked! So many times I run into problems where things aren't working on my end the way they do in the tutorial, which forces me to spend a bunch of time trying to figure out what went wrong, mounting frustration, and ultimately just giving up. Really excited about incorporating React into my web development for enhanced user experiences!"
+@pennyklen4973,Why Typescript though?
+@sexvvn,Can i get fundamental of React if watch only this 1 hour tutorial?
+@lucyintheskyfull,Very concise class! Good job!
+@user-sn6kf1zu2e,cool video)
+@wrightian5291,Thank you ❤
+@katetn211,"00:38:36 Handling Events
+'event' is deprecated warning
+I solve this problem:
+
+
+function handleClick(event: React.MouseEvent<HTMLLIElement, MouseEvent>) {
+  console.log(""Button clicked"");
+  console.log(event);
+}
+function ListGroup() {
+  let items = [""Venice"", ""My Tho"", ""Nha Trang"", ""Ho Chi Minh""];
+  // items = [];
+
+  // const getMessage = () => {
+  //   return items.length === 0 ? <p>No item found.</p> : null;
+  // };
+
+  return (
+    <>
+      <h1>List of City</h1>
+      {/* {getMessage()} */}
+      {/* {items.length === 0 ? <p>No item found.</p> : null} */}
+      {items.length === 0 && <p>No item found.</p>}
+      <ul className=""list-group"">
+        {/* <li className=""list-group-item"">An item</li>
+        <li className=""list-group-item"">A second item</li>
+        <li className=""list-group-item"">A third item</li>
+        <li className=""list-group-item"">A fourth item</li>
+        <li className=""list-group-item"">And a fifth one</li> */}
+        {items.map((item, index) => (
+          <li
+            className=""list-group-item""
+            key={index}
+            onClick={(event) => handleClick(event)}
+          >
+            {item}
+          </li>
+        ))}
+      </ul>
+    </>
+  );
+}
+
+export default ListGroup;"
+@RassTheCyberCat,thanks for the effort i really appreciate it. but i'm gonna give it a dislike because it's vague some parts are a bit hard to understand as a beginner. damet garm
+@Japan-informer,"Teaching React using typescript is such a bad move. Can't understand what the logic behind that so at this point I think it is just because it is your own preference. A big ""GFY"" to people wishing to learn react. :("
+@88starkiller,"I work as java backend dev for a couple of years now and I would like to learn frontend, I worked with C++, C# and couple of other languages, even built some native mobile apps in java / kotlin....to me..javascript and typescript seem like they were written by satan himself, fuck me this will be interesting journey..."
+@Saldymedis,Thank you!
+@user-kt2rf1ny5d,"Did someone else notice the like button getting colored when he said ""like button"" on 4:35 ?"
+@caglayagmurr,25:30 in windows you can press ctrl + shift + L to select all of them at once.
+@garynguyen7992,The Mosh way of teaching! Great!
+@Dmitry-cb7wl,"The cover is misleading. In fact, this is 1/10 of the paid course, which is only mentioned at the end, when you spend an hour of time."
+@tmstechschool7239,"Thank you, for beginner on react like this is helpful. I have one doubt on your comparison of Props and State. you said State is mutable, I think it is not if I am not mistaken. that is why states return the variable and set variable function to not directly mutate the variable, thank you"
+@smoother3755,"A help. I purchased his 'Beginner react course' and I wanna purchase the 'Intermediate react course' too. But it is not allowing me to purchase only the 'Intermediate Course', it is making me purchase both the courses again. Please help."
+@tonytodd7011,"Thanks Mosh, it must be a great video!"
+@uuuummm9,I thought that we will build that beautiful UI (game library navigation) in one hour. 😢
+@mikhailbogovalov2330,great introduction!
+@davitderdzyan2447,Awesome ❤‍🔥❤‍🔥❤‍🔥
+@mzolisidywili2230,"If your VS Code isn't recognising the .tsx file and shows the TS icon, install the 'vscode-icons' extension"
+@vivekt23,21:33 Creating List Group Component
+@windrago,awesome tutor!
+@pawe8713,"Far better channel than freeCodeCamp. Unline the second one, Mosh is explaining everything as he goes. Doesn't skip things that might be hard but eventually are important to understand the topic."
+@danielb4765,Which VS Code (icon) theme are you using? :)
+@livingmyselfinthehouse,"For conditional rending at 38:34, isn't it better to have null to be more easily readable?"
+@AdamTheGreatBaby,so excited to buy all your courses even my husband who has 16 years of experience had told me that he thinks that you are the best programming teacher
+@user-hd8wr9ed6b,Thank you
+@mohamadhammoud4785,Which vs code theme are you using?
+@user-ve9py5yy6t,cool video)
+@nikohamil538,"Hello there.
+I would like to ask you a probably silly question.
+What if we first have a ""Main Menu"" at the center of the screen ?
+Say something like:
+Games     Music     Movies
+and by clicking ""Games"" we select the Games app (or better the Games section)
+by clicking Music we go to the Music one and so on ?
+Could it be done with React or Angular is better ?
+Thanks"
+@VTski3r,Has anyone else experienced the hmr update not automatically working?  To view changes to the webpage I need to open up a separate live server which forces an hmr update in the terminal.  I then close the live server and view my webpage.  This doesn't seem like it should be necessary but I'm not sure how to get it to hmr on its own
+@waltermelo1033,"I made the alert hiding a bit different. i added a .d-none class to it when the prop ""visible"" is false."
+@JensonMJohn,"Good Tutorial. 
+One small thing to share Please enable ""Word Wrap"" in VS Code So that All Codes will be Visible on the Screen. Thanks."
+@jessefinnegan1719,Excellent tutorial.  Hopefully it will be enough to get me a new developer job (lost my old one in October) because I'm so going to get the full course when I can afford it.
+@sanketpawar3429,Thank you
+@Misica11000,"Wow,i recomend his full course to everyone who wants to work with React,i download it from pirate bay for free,its an amazing full course..."
+@rassta35,aaaaand i'm lost at 30:36. makes me angry that i can't learn something so simple
+@Waqas03215,Hello Mosh this course is great now I want to know when you are going to upload the 2nd part of this video?
+@fido9745,"I was confused about using a <Fragment> instead of a <div>, but I looked it up on google and found In React, ` ""Fragment"" and ""Div"" are used interchangeably. The main difference between the two is that ""Fragment"" clears out all extra divs from a DOM tree while ""Div"" adds a div to the DOM tree. With React Fragments, we can create code that is cleaner and easier to read. `"
+@johnfoon1781,"Awesome video, but i am intrigued by the mac terminal theme. Do you mind sharing the setup and can it be setup for bash?"
+@mohsinjawad5843,Thank you sir 😘😘😘
+@fido9745,4:33 Did anyone notice the like button effect on the youtube page? %$#Q^@$^%^%^&#$&^#^
+@sgorneau,This has to be the best hour and 20 minutes of learning on YouTube! You are an excellent teacher! I hope you know how helpful and clear your style is.
+@utsavsutariya4225,"Thanks brother, loved it !  ❤"
+@0596sami,"I'm getting this error:
+Error: Event handlers cannot be passed to Client Component props.
+  <li className=... onClick={function} children=...>
+                            ^^^^^^^^^^
+If you need interactivity, consider converting part of this to a Client Component."
+@yoshan9159,Hello World not shown only display blank page what I have to do ?
+@ramdaneoualitsen1323,Very helpful Thanx a lot Mosh!
+@KyleMaxwell,I'm an engineering manager recently hired into a full-stack team that uses React - this was a great taste of how React works to give me a better sense of it!
+@mrgameswill8958,Thank you for an excellent tutorial. I have just bought the full course <3
+@sdash2023,Yeah his courses are bullshit in udemy. I wasted money on his 1 course in udemy. Why vit man? Why couldn't you go with standard so that we could use it in our office?
+@1ilango1,"Mosh, You are a life saver !"
+@pokotyec,"Hey, what do you use for editing your videos?"
+@juancamilopenaranda9630,"this is a wonderful course, i like it but, do you have a react and javascript course?"
+@adarshdhandayuthapani4027,Thanks!
+@honzosaurus42069-no_furry,"Thanks for this, really useful."
+@VapidVulpes,"this is the exact tutorial i need, but my thumbs up is even more for that subtle youtube thumbs up button highlight when you mention the icon in the tutorial. Classy!"
+@losmilosmi1917,Thanx for this nice tutorial! BTW how come your comments are grey?
+@HaifengZhu-pn3uq,"my favorite tutor, I like your explanation"
+@ichig085,I'm a complete beginner with a pretty basic understanding of JS. I'm gonna do the course and see how it is.
+@joeking5211,"Thks for your superb tutorial. I understood that React is one of the languages of the moment and have never seen any coding in it before hence chose this vid. I would just like to say I have programmed in C since the late '70's and there were people the world over at the time knocking it for being complex and confusing. Well, I;d just like to say here we are nearly 50 years on and I'm looking at a pile of bastardised HTML junk thrown together in almost unreadable and convoluted form, what total and utter morons ever sat down and conceived this absolute shite, more of a question what meds were they on. What an absolute abortion of language for 2023. Could they have made this any more of a complete mess if they actually tried, I feel not,  And think about how C was knocked for this way back then,  Who the hell comes up with these ideas and syntax, in the first 30mins of the tutorial I can't come up with anything that could be added to make it more obfuscated, so they really have done an excellent job in that department.
+Your superb vid has made me aware of what React is ( or perhaps more is not ) and I am gobsmacked which is why I had to throw my bit in here, Who in their right mind would ever go anywhere near this junk when there are so many alternatives out there these day, I feel a quick vid on that would be very interesting as this is for sure strictly for the masochists to ever think about bothering with, and Why would you ???????????.
+Thks again and 10/10 on your part but -10/10 for the state of React, have given Thumbs up for the vid, you certainly deserve it having to deal with it so deeply. Kind Rgds. Truly Stunned."
+@astraea926,"“Learn react in one hour” doesn’t even explain the basic function syntax, he just outright uses it without explaining lmfao."
+@hemantkumardas3333,Thanks sir...
+@kris_gpt,"In 34:25 you say there is duplication in code and you will show a different way to achieve the same result. But the result is actually completely different. When you used if statement, you displayed either of two outcomes. After making condition in your ""simpler"" way you display both ! It is not visible as you used empty array, just use your list of cities and make some other condition :/"
+@TheCalmer,"A1 1:20:03, I have a question.  When you had the Props property earlier and you said name: string, in the App.tsx file you said name=""me"" to pass the property to the component, but when you have children: string, how come you don't write something like children=""...""??"
+@HrissW,Has anyone bought his react course or no? is it valid?
+@DashingChannel,4:33 Just look at like buttons if your watching on your laptop. Something amazing will happen
+@potatas_,one of the best channel
+@TheCalmer,how do you get the import statement added automatically?  When I type useS there is no autocomplete and even when I type useState the import statement doesn't get added automatically.
+@GambaBebum,"Tip, don't use react."
+@qiupprogramme4484,Thank you for the video. Where can I find the 2nd part ?
+@personnumber42,"Great tutorial! Extremely helpful. 
+
+One question - how do you get the react hooks to auto-complete and auto-import? Didn't see that covered. Not sure if it is a different plugin or setting for Sublime Text (editor I'm using), but it seems packages are generally the same. Google isn't helping very much!"
+@user-ix3wl2iu6i,"than you for this content i really appreciate it, but this title is really misleading!"
+@peterwan1808,The Ctrl + D shortcut to find the next occurrence of a word was such a neat trick! Really enjoying the lesson - thank you!
+@ifennaokoye636,Do you have this exact course but with JavaScript??
+@altom_weightlifting,I've been developing for a few years and your style of tutorials are some of the best that i've come across. Thank you!
+@smurffronda2951,Thank you!
+@tootytooty5135,Really good. I got the full course
+@qasimalikan3559,"Love watching it, very useful concepts explained in a best way."
+@user-se3th7mz8e,He cheats viewers by giving the wrong msg in thumbnail saying all the content in one video .. and he tries to push users to buy his course for the rest of the contest... Although Mosh is a great lecture but at the same time misleading the thumbnail and wasting users time dear mosh please do not do this!
+@iosifpuha6114,is everybody's HMR working? Because mine is not. I have to manually restart the server with the shortcut <r> in order to see the changes
+@verywellrounded,Transitioning from backend to full stack development a few years ago. Been developing react apps for the last two years. I picked up several neat shortcuts and several key takeaways for a project I am building from scratch now. Thank you!
+@blitzritter7867,"This is a great course, well structured, not too fast and in depth explanations"
+@sajit_panta,Thank you very much
+@abdulrahmannofal5579,1:00:04
+@ero3535,man i fucking hate react youtubers
+@AkamiChannel,"Missing a link to a git repo in the description. Tutorials without repos deserve a special place in the afterlife, and not a good one. I don't know if you have a repo with this tutorial or not, but I'm not taking any more time to find out because I have a strict no tolerance policy regarding that and I'm not spending more time to find out. Just giving honest feedback for why I'm disliking the video."
+@ooAdam-ui4fs,First monitor I’ve ever seen dancing while doing code.   0:28
+@SirBaited,My like button literally just went rainbow
+@abdulwarissherzad9914,I just wanted to let you know that your last-minute was is unclear.
+@hossiniproduction6196,Can you create one with CRA cause I am just starting with react and my professor tells me I need to learn CRA first then Vite.
+@khalidtubail,"I am trying to buy React 18 for Beginners & React 18: Intermediate Topics, but it kept telling me the Incorrect CVC code, which is correct?"
+@secretr5024,Amazing tutorial
+@vasconcelosjean42,the best video ever
+@KillerEike,"Very good tutorial for newcomers to React, thank you"
+@abdulwarissherzad9914,"Thank you for ""React Tutorial for Beginners"", I love your explanation, and thanks that while playing your video series, I haven't seen an advertisement."
+@Vlight.,this is great 👍 I love the videos sir
+@albertomolina1574,"Very nice, thanks"
+@kavorka8855,Hi and thank you for the excellent tutorial! But shouldn't the visibility of the alert be handled in the Alert component? Like the closing of the alert? Thank you so much!
+@DesazMusicYt,Nothing fucking works on my pc....I follow everything!
+@techspan101,you told in the beginning that you will be using typescript. But you are also using vscode. I am confused. please help!
+@jooblia,50:55
+@Durowave,Wow! We are a RnD Team we also watch your videos to lean coding. Thanks Mosh
+@infomattersmost,"Brian need some help in understanding.  I created a website on for example a Wix type platform.  I was trying to implement a paypal subscription setup for payment, and it was not working.  So I hired someone, and they said it was impossible for the paypal subscription to be done because the Wix type platform was limited and Wix only lets users needs go but so far.  The guy i hired recommended he build me a React website and that he would deploy the React website on AWS.   Here is the problem, everytime I need something done to the website I have to contact him.  And obviously that will cost money for every little thing.  I told him its not right that i don't have complete access to the website that i paid him for.  He said he would create me a admin login so that i can do things like add products, edit text, add pictures.   I told him that works but to setup the admin that I would have full access to the code.  He said that is not possible.  Is he lying?  I mean how can I own my own website but not have access to the full code.  What happens if this guy gets hit by a car and dies, what then?  How will I be able to get full access to my website?  How about if I wanted to hire someone to add a Carousel Slideshow, and the person I hired needed access to the code, If i don't have access to the code, how can the person I hired have access?   I feel like i have no control over my website, and if i ever had a serious problem with this guy he could easily remove the website from the web and screw me over. I am sure as you are reading you already have an idea of whats going on and what I need to say to this guy.   Help please,"
+@RohanRegar-zd5xl,does anyone has the download link to this entire course??
+@Ruin3.14,"Thank you, just got a job that uses React and I needed a refresher. Great video!"
+@miladesmailpour192,"great quality content, but as soon you subscribe to their website they keep charging you even after unsubscribing. they don't let you delete your credit info and respond the way it is our fault, like we can do anything about the autorenewal, not fix their website issue which is not secure and reliable to add credit info."
+@ahmedhamza9277,"great explanations, thankssss"
+@pedrolemos806,"Top video, it was like watching tv, loved how plain and simple you explained the concepts. Please keep posting more of this!"
+@tilted_realms,Thanks Mosh. Very grateful for all of your courses mate.
+@haryagohar,Very useful video for learning React primary steps. Thanks a million.
+@yacahumax1431,you give the impression that react HAVE to be used with node. but that is not the case.
+@panhuragan4388,why not javascript since 90% use Javascript?
+@talrajuan,"Amazing, thank you!"
+@breemudi,Too much Ads. makes it hard to follow without getting distracted
+@namaefumei,Bootstrap? Lol you gotta be kidding me.
+@xternalmega,15:00 that part doesn't show up for me. I would have to rerun the npm run dev command in order for the site to show changes.
+@Kidrock87,"Thank you for the tutorial! I have a question, or rather, observation. At 55:02, basically the section of ""Passing Functions Via Props"" while understanding that we can pass functions through props is important. The example's result of logging the item's name into the console could be solved easily with adding 1 line after setSelectedIndex(index); that is: console.log(item); which essentially does the exact same thing :DD
+
+Definitely not me trying to devalue your tutorial video, rather, I'm quite happy that I noticed I could do a little something with how little I know of React thus far.
+
+Thanks for the video again!"
+@chetankulthe7878,"nice explanation, very useful for beginner like m"
+@mindgauge5727,44:00 You used const handleClick = (event: MouseEvent) => console.log(event); in map so each time its value will be changed. But as far as I know constants don't allow to change its values. Please guide me what's going on here.
+@SachinKumar91,Thank you for this tutorial Mosh. Appreciate your time and efforts for making such content.
+@dominikawojewska3985,"That's the best React tutorial ever!
+
+I have some questions. in [1:10], when you define props of a button and give it onClick prop, why you write there ""void""? What does it mean?"
+@actnowordreamon6774,"That is a great overview. I walk through it, done all exercises and have a better understanding."
+@Denimy0,"Anyone here paid for the full react TS course?
+if so, please comment your experience. Thanks!"
+@bridgent1249,"Learn how to implement react loading skeleton feature in just few seconds 
+
+https://youtu.be/SCLs-fcrzz8?si=D7IrYpg5om_VgMD7"
+@tGoldenPhoenix,39:13
+@user-uc5fu5dr9r,I have a little understanding in Blazor so with your turtorial i think i am now ready to start my first project with react. Thanks a lot.
+@user-cb6ld4vb8k,"I am enjoying this course so far but I am having an error when I go to add my ListGroup to my App : 'ListGroup' cannot be used as a JSX component.
+  Its type '() => void' is not a valid JSX element type.
+    Type '() => void' is not assignable to type '(props: any, deprecatedLegacyContext?: any) => ReactNode'.
+      Type 'void' is not assignable to type 'ReactNode'.ts(2786)"
+@hadimomin4150,"you said we will be building that gaming project together in this course but you did not show a single thing about that in the whole video, do we have to purchase your react course for the project?"
+@Iyht,"I been programming for 20 years now and it always amazed me how overcomplicated and redundant web dev is, you literally had to use 3 libraries (vite,react,bootstrap),  4 useful files and like 10 other useless files, 4 functions, and like 4 objects so that you can create 2 files(HTML and JS) that are going to actually do the work and create one simple close button. I just think is silly to have to use a compiler for typescript the whole purpose of interpreted languages like python and javascript is to not have to use a compiler...and if people really want type safety, why not use a faster and more formal language like C# or Java that were already design for that or just learn to program correctly. The idea that react applications help on debugging is clearly false by just looking at the complexity of the code and the special syntax. The only advantage that I see for things like typescript is intellisense, but I think there is easier ways of solving that problem. At this point its probably better to just use C++ 🤣"
+@baranbati2361,this isn't the full course. It is behind a paywall and the final project is included only in it. Should've gave that disclaimer in the beginning.
+@FirasTeinz,can you upload src please?
+@ed7030,I am watching this once everyday for a month straight
+@danishsadpara,i learned the funda of childrens in details
+@mauricioquiroga7209,"I missed the beginning: how to install node.js, how do I put this on a server? I am wanting to do a form, something simple but with interactivity"
+@jsublett70,Excellent video. Thank you!
+@efepekgoz,"20 mins into the video, 'Oh btw this course is not complete and you have to pay me to get the rest.'"
+@48_subhambanerjee22,Mosh the goat 🐐 GREATEST OF ALL TIME
+@gem13259,Thankqew
+@starrex6074,Thanks u sir my teacher Hassan Rizwan Bhutta suggested me your channel kindly shout out his name
+@szablitho3439,"Hello watchers and Mr. Mosh. Is explanation in video of libraries and frameworks accurate? Well, i used to double check info on internet within different sources and i read that for example form validation can be done with React alone using for example if else statements.
+Also if framework like Vue.js is a set of tools, i understood it has built in libraries for specific needs. However google told me you can add other libraries on it too.
+How is it actually?"
+@Sandy-px1fz,question are you a software or front end developer
+@visheshok8676,https://youtu.be/bMknfKXIFA8?t=1
+@roberyoussef7223,localhost:3000 work with src>App.js    not       src>component>Home.js        what is the reason???????
+@kapitannemo03,Thank you Mosh! I will buy the complete course
+@louisik1,"""vanilla javascript... 6 lines of code omg!!!""  node npm @ffi3jf -sdjf -wjaklsf  blahblahblah 25,000 files later...   ""see how easy this is!?!""
+
+lol... a day of reckoning will come."
+@DD-vm7fq,There are still people learning old technologies out there i can see. Learn Svelte / SvelteKit instead.It's a way out of the dark in .js.
+@user-qy5in4oj6p,"You are one of the best teachers which i have looked. Only necessary information without water. I am a backend developer, but with your lessons i plan to structure my knowledges about frontend and developer some pet project. And maybe i will try react native"
+@jonathanburdocklawitlang4824,How to make telegram movie bot please need tutorial
+@jasemianalmousavi4303,thanx
+@himanshuvora1980,👌👌👌👌
+@TheBlackmanIsGod,"CAN YOU MAKE A VIDEO ON “controlled randomness”, and how to think with it and solve real world problems with it like an AB testing situation????"
+@poyipoyixd849,"Im In senior high school and we need to learn this for our thesis, god"
+@rishabhraj1208,should we know typescript for this or we can go with javascript?
+@aidin3186,❤‍🔥❤‍🔥❤‍🔥
+@muhammadmusharaf4705,Thank you Mosh. It was really Amazing
+@csereal100,This course is not for total beginner.  You are jumping to different things with no/little explaining . Very poor tutorial
+@husniyahsule2434,@programmingwithmosh thank you for this tutorial but please when i input the npm run dev  to open the project shows me prompt message that is not available what should i do please
+@user-pr9yp3fy1z,"Hello All 
+is it possible to execute commands  using react in our local systems ? any idea would be more helpful.
+
+Scenarios is like i would want to run some commands in my c drive or d drive or specific given location."
+@VasanthKalluru,"The best React tutorial I've ever seen. Cracked my head to understand react for a while now. Thank you very much Mosh, will try completing the entire course as well. "
+@sohaibrana7450,how is his terminal all labeled and colorful?
+@marilynm.7803,You're awesome Mosh!  You're creating a great community with your videos and we appreciate you!
+@HayaBaqir,local host shows not to be working for some reason
+@michealyang1994,"Hi Mosh, I have a question about each component. I saw someone use ""ReactDOM.render(xxxxxx)"", but in this video, use ""export default xxx"". Are they the same? or have a different purpose"
+@AdnanDeveloperConsole,"https://youtu.be/k-5aLRhG0Ic?si=SejAPTGKFE69jzxy
+
+I hope this helps for cracking interviews"
+@MohitKhare,Thanks Mosh. Amazing content as always. It's really well explained and I love the fact that you tell the good/bad programming practices and conventions. ❤ from India.
+@user-ry7xe1ud3x,Coming from Angular and learning this is so satisfying...
+@edwinaritama,super cool!
+@DataJuggler,"I am unemployed, and opensource doesn't very well (at all). $149 is too much when I am worried about eating and having a place to stay. The $29 per month, is that cancellable after a month?"
+@DataJuggler,"React seems easier than Angular, and closer to Blazor which is my favorite web platform."
+@RECEVERYTHING,"Hey Mosh, for some reason when I follow this the close button on the alert is right up against the text on the alert, as opposed to being on the right side of the window.  The alert still covers the entire width.  Any idea what could be causing this format error?  
+Thanks!
+
+edit: nvm was a spelling error 🤦‍♂"
+@DataJuggler,31:14 How did you bring down the line of code?
+@miner7292,27:17
+@CamWhite-ng1fl,it would be good if you showed the index numbers of the text doc - makes it a lil hard to follow fluidly otherwise.
+@isroellitvack8048,The best!!
+@abrahamshepher9321,"Hello Mosh, can you tell me the theme you are using for VsCode?"
+@bringerod5141,"Sure it's a first step into react but I feel like in order to master react I need more help with understanding the different hooks. An example would be a simple ""list items from a database and react to changes in the database as it is getting updated"" which is a very common user story. I give this a 2/5"
+@JeMasLT,0:24 the best stills ever :D
+@user-cs5cr6mc2g,"Отличное информативное видео, с интересной подачей!!!!!!!!!!!!"
+@techvisiontv7309,Mosh always mass.
+@mdshariqq1976,awesome
+@-pcmr-108,"Well I wanted to follow this tutorial, but of course React is crashing as soon as I try to run the dev environment."
+@behzadmazaheri2962,"very good course , tnx bro"
+@valentinleguizamon9957,Thank you!!! I really enjoyed the good explanations!! 😃😃😃😃
+@naziqfn2472,"Hi
+When the next part  is coming? 
+Tnx for great videos"
+@sujithnarayan5335,"8:32, how did you import the files of node modules and etc.."
+@viscy,Day 1 7:20
+@statesmancomics7284,im not sure why but the controls on my mac are not like the ones ive seen online. when im in vscode i have to push i to allow it to let me type and the command d does not work past one line
+@AchwaqKhalid,When #Golang ❓
+@ilokana-ak149,"thank u so much sir for making this vedio, Im a programming student so im happy to watch this.❤❤"
+@bhawnakhattar261192,"I was not allowed to pass children as a string directly instead I had to do this :  <Button chidren={""My button""}></Button>"
+@rahulpyd1,Not an active React developer but learned quite a lot from the videos. Thanks. Very engaging.
+@sharmfernando9235,Thanks Mosh 🙌
+@bryarghafoor4713,I really want to take this course but it is very expensive!!!
+@user-pi9nk7pf2k,i love react
+@user-vt6em7bt4i,react version 17?
+@user-vt6em7bt4i,react version 17?
+@waleedsharif618,Does vite support testing using react testing library + jest ?
+@patrickmasese4289,❤
+@smithtang7763,"wow, this is what i want , excellent"
+@preranabaruah4029,Thank you so much for this video. It was really a great help. Thankyou again!
+@mathewmcconaughey3517,setting up react is just too complicated fr me. been struggling with it. the npm commands for vite is not working on my vscode.. i m just pissed
+@swetapatel4799,nice
+@swetapatel4799,nice
+@niqueyinflight,This was a great taste of React. Glad I found you!
+@gugun2660,"Mosh, I really love how you teach, is there a way that you can teach other as400 programming languages like RPGLE free format? I am now doing your SQL and I am loving it! Please if it's possible? I am 50 and want to remain relevant until I retire at any job. If you have other suggestions, I am open to them. Please help Mosh."
+@whysumancode,I left here 33:25. I will continue after an hour.
+@faheemulhassan7458,"I am learning this video to face the issues in the main.tsx files plz solve it
+""'App' cannot be used as a JSX component.\n  Its type '() => void' is not a valid JSX element type.\n    Type '() => void' is not assignable to type '(props: any, deprecatedLegacyContext?: any) => ReactNode'.\n      Type 'void' is not assignable to type 'ReactNode'."","
+@Harpie.,"Your tutorial so far is great, but I was wondering if you do any React using Javascript instead of Typescript"
+@mohammadmousazadeh1449,حاجی من حالا چطور آموزشات رو بخرم!!! نمیشه که!!!!!
+@_Jospin,Thank u mosh. Can you please prepare for us kivy tutorial for beginners please.
+@ZeeshanElia,"Hy mosh
+
+Should I Go Machine Learning with JavaScript ?
+
+Because javascript is mine  love  ✔️
+Whats do you suggest me"
+@fahadnahi1309,What’s the best laptop for programing?
+@kentbdreyer,is there an extenison to get those colors on the code you have?
+@centralizandodiv,Is this course available on udemy?
+@sofianebenhamza4985,the way you explain things is just amazing  ! Thanks sir !
+@tiktoklyricsvibes,"I have no watched his video yet but I find it useful ,
+cause i have going up and down with rondom tutorials for long time."
+@gowthamvegi608,"Actually i know javaScript basics but, this course is using typeScript. Can I still opt for this course ?  can Somebody help me out"
+@adrianayon5513,"wow a modern Prometheus,  thank you sir!! Respect!! 💯"
+@Lovememore231,Why is this in the Billy the Kid show series Playlist?
+@samuelweb6595,This is one of the best react beginner course. 😊
+@nazaningharache5124,Please add the Farsi translation🙏🙏
+@DeltaXML_Ltd,Great tutorial!
+@quintinjansevanrensburg5476,These videos has more adverts than content🤯
+@Pcskills0118,"Hi Dear Mosh. 
+I would like to ask for something. 
+I am 16 and it has been half a year i am coding and I learned front-end web dev. I can really feel some damages to my eyes. Could you please make a video and share some tips on how to avoid damaging eye while coding?"
+@UECSoumyaRay,Finally a youtuber who has a higher node version than me!!!!
+@amroulouay6819,👎 Avoid that React tutorial! 😡 It's overly complex and frustrating. Find clearer resources for better learning. #React #Tutorial #AvoidFrustration
+@delacliqueentertainment4456,Nice tutorial video thanks. just have one question. is the certificaton in your course renouned ?
+@urbanyoga-ss3uh,"Hi, where can I find the program(code) which was illustrated here pls?"
+@GourangaPL,"i still prefer vanilla JS, that makes me feel more control over my code"
+@leogerald3161,Please where do i get Terminal please
+@anoopktla,"Thanks for the wonderful tutorial, @Mosh going to get the complete version soon 🙂"
+@ronking3445,just all the formatting tricks is worth the thumbs up
+@mrgyani,"This is so complicated..
+What happened to plain Html, css, js?"
+@vipercodelab,WIll you upload a video on using js with tailwind css?
+@user-mj1sf3gm1g,"This is really great tutorial, I remembered all from this video. Thanks"
+@dhruvkumar-br2lp,Thank you mosh
+@pratikmurari8182,why your temial looks so different
+@ExitStrategyNYC,*Love love love* the big fonts
+@Tron66,Am new to React but after watching this i feel like a pro. Thanks Mosh and keep up the great content
+@lawrenceyang9959,Hey Mosh. I like your videos. Will you also make videos on how to use popular frameworks like NextJS in the future?
+@jeremydrury115,Great video. Thank you!
+@asiaroomcom6327,Easy to understand React class for beginners
+@dalepres1,I came looking for how to use react but got how to use vite.  I wish you'd taught how to use react and then it  might make sense to add to or build upon that and show vite but I'm looking for creating an app with react and your video doesn't show it.
+@frontenddev5,In 1 hours you will learn how to write react. See ‘react’
+@edenyaniv8141,amazing
+@developpement_digital,"Mosh Hamedani is the best one in Youtube explain programming language very well, Thank you so mush."
+@russmbiz,"In my main App function, I have to put parentheses around my div in order for anything to render. I looked it up, and the docs say that you need parentheses whenever a component returns multiple elements. You are returning a div with a message component inside, yet you aren't using parentheses. Why does yours work but mine doesn't? I'm using the same version of react."
+@AshokYadav-iq8vb,"Hi Mosh, Thanks for new version i accidently open your old course(https://www.youtube.com/watch?v=Ke90Tje7VS0&t=424s) which is not working now to code on my machine because of dependencies are way older today.."
+@AN-kr6sg,"0:25 god damn how hard she is typing, monitor is going crazy"
+@TheYAWHNIE,"This made my ""migration"" from Angular to React very smooth!
+Thanks 🙏"
+@shawnshaw9859,is react-bootstrap used here? I saw bootstrap is used but nowhere mentioned its installation
+@geek_24,"Namaste everyone! 🙏 If you're keen on learning programming and diving into ReactJS in Hindi, I've created a video just for you: https://youtu.be/SFXJUy_WFAg. Take a look if you're interested! Thank you and happy coding! 🚀"
+@varshikjain1862,after coming to managing state everything bounces off my head
+@wayofknowledge,Kindly teach me mongoDB and lauch course of data base management
+@saulgoodman7693,I loved this REACT tutorial! Your explanation and demonstration is perfect. Your exercises helped me test my understanding of what I had learnt. Once again a greater lecture and an even greater learning experience! Thanks a lot Mosh! Keep up the great content and wish you more success in the future!
+@SandhyaReddy-qx6dv,What VSCode theme are you using @programmingwithmosh?
+@user-je1zw8ln2x,"hello, when I cteate this project as you said, there is always red wavy line in HTML tag in the App.tsx. do you know what may be the problem?"
+@sweetfitfun8223,Please make python flet full tutorial ❤
+@mikaelnilsson8041,"This is the most clear and concise basic ReactJS tutorial on YouTube imo. A question though, what is the naming convention when we have multiple click events in the same component? ""handleClick1"", ""handleClick2"", etc looks really bad."
+@nipunkumar7164,"Why the arrow function at 46:54 ?
+anyone?"
+@cassandradantico500,what a fantastic video thank you so much. so easier to follow than other videos out there
+@Pollux70,"Auto formatting can be wrong as if it is different from production conventions, it makes it hard to see what changes were made."
+@codingwithnyemmal,https://youtu.be/z_7rm-VftAI
+@marchevka22x,"You do a good job of explaining ""What is the problem we are trying to solve"" ... which is left out of way, way too many CS videos."
+@Mauzy0x00,"Great video! My first time playing with front end web-dev. Only issue I ran into is optional property. When I have the question mark there my browser says ""Uncaught SyntaxError: ambiguous indirect export: default"" or ""Uncaught SyntaxError: ambiguous indirect export: default"" on another browser. issue went away when I remove the question mark."
+@iand954,"wery helpful, but hard to eyes during switch from dark mode of ide to light screen of browser)"
+@fredricksilas8407,"Me in 2020: yea mosh Is great
+Me in 2021: I don't need mosh 
+Me in college: mehn bro, mosh is the best he saved my gpa"
+@shojo799,Archivo->Preferencias->Configuracion for Windows spanish. And Files->Preferences and configuration for Windows english. 6:10 configuration.
+@eff_gee321,"Its a good tutorial, but its a bit misleading as it is just an add for the full course. you can follow this tutorial but it wont get u anywhere if you don't purchase the full course."
+@xaviersoh,Well Done !!!!
+@as_if,29:20 how did you delete it in one go
+@nuresma1051,Perfect expression...
+@victoriabuvenova8583,"the screen where you show code is too enlarged, hard to read"
+@sikanderkhan5745,"at 36:04, why does he use => for the function?"
+@hv6411,Thank you for making me smarter🤩
+@thomasfang5156,"Too many Commercial, don't like it."
+@system.out.printlnsmartert5781,Followed everything exactly but hello world is not showing up in my browser.
+@rmtech7678,hey Mosh ! who named you Msh ? you look more like a pea 😂🤣😅
+@vadi4390,"Mosh, can you PLEASE make a course about c too? !!!"
+@system.out.printlnsmartert5781,Dang not gonna lie this is very confusing. Going to stick with it because I eventually want to be a MERN developer. I have a long road ahead of me lol.
+@graniteprogrammingtutorials,"The biggest problem with this video is that it gets confusing and as a viewer I lose focus with the extra bootstrap, typescript and vite information instead of focusing just on REACT. I understand that these technologies are used in addition to REACT but for a complete newbie to REACT I find it hard to realize what is REACT code and what isn't. That being said I give this video an A+ for its content and delivery. Keep making great informational tutorials like this I love them!"
+@youdontknowwhoiam1243,Sorry mau curhat ejek aja gpp tanggung sendiri. Tapi pernah ga lo burnout trus yang ada malah video 1 jam an kaya gini? kan pusing jadinnya..... Maksudku mending kita cari solusi
+@cydexcode,"once the video is posted by ""mosh"" you know that you are going to understand everything quickly... thanks for everything that you teach us... i hope you will never stop teaching cause you are a very good teacher.... much love....."
+@rogue5738,POV: https://www.youtube.com/watch?v=Q7AMolTul7c&list=PLUT1ru5pyDyEXV-utdb_EQT_-nftlb2wq => When he said that we can buy the rest of the course :)
+@talha5423,Is it only me or some of the folders/files were not installed like the assets one. Can anyone help pls?
+@alokkumarmishra5172,Mobol 😆
+@blaineruffing4396,So im having an issue with the first real problem you went over and App is declared but it's value is never read. ts(6133)
+@sadmanh0,"I don't understand something, in the Managing State section, you said that React is not aware of the selectedIndex variable and it's local to the function. So presumably this is because the var was declared outside the HTML snippet in the function return. In that case, how does React know about the setSelectedIndex function? I'm guessing it has something to do with the useState function? So whatever variable is in the second part of the useState array acts as the hook function? What happens if I put more than 2 things in that array?"
+@renzou7053,Does anybody know what font Mosh used in this video? Thank you so much for anyone who can help me.
+@bepowerful5896,Very nice❤
+@talkingartist424,Wow! Great video! What software is used to create so smooth transitions & animations?
+@xk2920,"Sir, do you provide certificate after the course?"
+@thewillplaya2022,I don’t see the front end course on your site I’m confused on which one to pick out to learn front end web development. Can you send me a link please thanks
+@novagames5719,I just need this
+@someone-on-earth,what theme are you using in VSC ?
+@helloworldprogram58,Thank you for making this course!! you are a very good instructor and explain things in a very easy manner!! I understood everything in no time!! Thank You!!❤
+@phillip_jacobs,"Just finished the full course! Hands down the best tutor!
+Thanks Mosh!"
+@rean8899,"Hello sir, I'm so wondering when I use useState Hook to increment the count I can write setCount(count + 1) but I can't write setCount(count++) ? I don't what's with this implement."
+@alexkimani1702,I hope in future you create a tutorial for GraphQL and Apollo
+@mikebeats3281,All of this just to make a button🎉😂
+@isaurabh2001,Thank you mosh.
+@user-ek7lj2hz8k,"Как всегда, отличная работа"
+@as8604,simple explanation with full meaningss....😍😍😍😍
+@waqarrao3610,Why you don't use Tailwind instead of Bootstrap🥲...anyhow we want videos on smart contracts... Solidity...please ...
+@chandukanth6875,Cheaterrrrrrrrrrrrrrrrrrrrr..... Remove the thumbnail of learn react in 1 hour
+@prasaedonium,test
+@Pages_Perfected,This is Amazing!
+@omarhassan9234,"Great tutorial, comprehensive and simple to follow. Does anyone have summarized notes on this tutorial?"
+@awreckingball,"14:52 Uncaught SyntaxError: The requested module '/src/App.tsx?t=1689719445651' does not provide an export named 'default' (at main.tsx:3:8)
+
+Great start :|"
+@MrMaharkus,thanks mosh. cool.
+@lenayounger4451,"I want to know ,did you put the code in vs and if yes pls explain to me am loss"
+@rickypatel2014,Can anyone tell me the theme he is using?
+@juviscript,"This is so awesome, I appreciate you, Mosh!"
+@lukaszsawicki9441,Hi mosh. First of all Amazing tutorial(this is why I invested in it :) ) But question why my prettier is formatting code different way than here on this clip?
+@michaelbonnet590,"I encounter issues around 54:50, saying Uncaught ReferenceError: useState is not defined"
+@pongtime,Thank you so much! Best tutorial on the Youtube!
+@chandukanth6875,"Cheating with fake thumbnails..... this is a small part of part-1 of react(that too you will know that it is part-1 after completing it) after completing part-1, the price of part 2 will be hiked....."
+@Connor_Lucas,Hi I've messeged you on tiktok from my backup account could you please respond here so I know its you
+@Tejash0901,42:0
+@ultronzeon1759,"Hey mosh , can you make a video on react native??. The latest release got so many new features and it would be very good opportunity to learn new things from you. Thanks in advance !"
+@calebkrauter4027,"I was enjoying this video until I heard that this is the first part of the paid course, I feel a bit mislead since it wasn't clear up front that I would have to watch 8 hours of a paid course."
+@BiniamMarkos-ps5lr,can you please write a program that detects palindrome
+@sandyechon5608,I really hope you can make a tutorial on how to make a point of sale application using react native
+@user-sv2em5sn3u,"At 10:42
+
+That ""scripts"" section in the package.json file are:
+⚙ dev: This script runs the Vite development server. This server will watch your files for changes and automatically rebuild your project when you make changes.
+⚙ build: This script builds your project for production. This means that it will minify your code and remove any unnecessary code.
+⚙ lint: This script runs the ESLint linter on your project. ESLint is a tool that helps you to find and fix errors in your JavaScript code.
+⚙ preview: This script runs the Vite development server in preview mode. This mode allows you to preview your project in a browser without having to build it first.
+
+Hope it helps."
+@plokiy4986,"I’m learning JavaScript in my course, can i do this with JS?"
+@M_Bennettecrochet,https://youtu.be/BawHLY8YXio
+@rehan-6377,Thanks
+@Jakes_psyche,But where is the video game rating site?
+@VortexDa1st,"Thanks a lot bro, can you please make a video about loop control statements: break, continue and pass please? Thanks!"
+@rabbitlover7656,"Hello, honestly I have a question that drove me crazy, that there are many people who said that the C language does not contain object-oriented programming, and in fact according to the English books it says that the C language contains object-oriented programming, and many people hate the C language and resort to the C Plus Plus language because they claim that  The C language does not contain object-oriented programming, and this concept is very, very, very wrong according to the proven scientific books of the C languages. Unfortunately, many people criticize the C language because they claim that it is devoid of object-oriented programming. The problem is that those who claim that are experts and university professors.
+This is not my words, but I quoted it from a person who is an expert in the gaming industry in a company in Europe."
+@patrickhastings3733,"What vs code 
+color theme are you using in this tutorial?"
+@mmuhkkha2001,"Is object-oriented programming subordinate to, or separate from, data structures?  And which one do I start learning first, object-oriented programming or data structures?"
+@luisatgarcialo,"Was using this tutorial because I'm new to React, but not JS. Using onClick to make list items ""interactive"" is a bad practice. I was hoping you were going to point that out and then show how to do it properly, but then you continued to build upon it? This makes me think that other antipatterns, ""shortcuts,"" and bad practices are being recommended."
+@dynaamicc,"Hey, I'm having an issue buying the course off of your website, can you help me in any way? it get charged but then the page freezes and i never get access to the course"
+@shubot6530,Mosh please make json tutorial :(
+@stephenolise7375,it was cool to watch this. my problem no is i don't know how to use react jsx on my window please some help I'm stock please  please please
+@mwaikul,"Love the tutorial! Its the perfect balance of ""show me the code"" and ""explain the concepts to me"". Came here after a bunch of tutorials that jumped to deep into the code with no concepts or vice versa. Thankyou!"
+@sakinabhimani922,I found error when i install npm... 😒
+@mahdi_c200,thank you
+@julius5632,"Hi. this might be a bit off topic, but yould you please reupload the ""cheat sheet"" for the your python courses again since they are no longer available. Best Regards Julius."
+@WhoCares-oy7so,"on Window based VSC, its under File -> Preference_> setting ... the rest is the same"
+@israelsilberstein1742,please disregard; my bad - I somehow (in refactoring) ended up with <ul></ul> on one line followed by the li tags. I look forward to taking your multi-hour course
+@israelsilberstein1742,"great intro; when I add the click handler, I put in debug to see that the className is actually ""list-group-item active"" but it is not painting as such"
+@maksimsimeonov9541,On 43:35 is (event: any) right
+@marzenalaaeddine,Thank you !
+@chandukanth6875,Will this full course cover routing as well?
+@raulriquelme4734,"what is the difference in main.tsx, main.js appears to me, thanks"
+@user-ko7nt5mw6q,I struggled to learn this because I'm a beginner but it was worth it.
+@xc4945,"Hi, I'm new to front end stuff. 
+Do you have a course with React and Javascript instead of type script?"
+@rashmiyadav3825,Please make a course video on Blockchain
+@BanksAvvab,Good course!
+@nahombinyam3759,I have been struggling to learn react for a long time but thanks to you that curse have been lifted 🙏
+@ast1897,"Good tutorial, but there are a couple of things that could be improved. He runs through the stuff really fast and constantly erases what was just coded. If I am new to react, I'd like to have an example of everything I'm practicing rather than wiping everything clean after each session. If he is going fast to keep the video short, that's fine, but what's with the music slides after each segment? Overall, it feels a bit like an infomercial and that's a turn off when considering the purchase of a full lesson plan."
+@rjbasada3430,"Hello sir mosh, big fan of yours, can you have some video tutorial with the odoo 15 with xml ? Thank you"
+@patrickhastings3733,How am I the only one that is asking what vs code color theme are you using? Dracula? I love it and it seems a bit different than that one..
+@chandukanth6875,Can someone help me in getting the code which he wrote?
+@PrinceAnichi-os4nw,"Hi Mosh,please can I start learning python with an Android phone?
+If yes how?"
+@michaelsazz3545,I can't lie this course made java script look so easy ..how is this supposed to make my coding faster?😒😩
+@PMR745,you look like jonny sins
+@ThunderChasers,this is great. sometimes a little too fast for me to keep up. pausing and rewinding with such a long video is a little tedious.
+@NicJSB,Thank you for this helpful tutorial. What theme is that in VSCode? Mine looks different
+@hosseinmontazeri491,"this is amazing Mosh, thank you"
+@hrishubpulickal8926,"I bearly know java script, so can I learn react without it?"
+@markergaming8394,Bought the course. $20 for the best teacher. Great way to give a hour of content first and add value.
+@bigg-9646,pls make tutorial about nosql.. i watched all your courses starting from basics 7 months ago..i followed your recommendation of what should i learn first. and now im a frontend dev and currently self studying about backend and database and couldnt find tutorial the way you teach..
+@AddictedGamer271,"Easy to follow, great work as always."
+@nanoRobin,what theme do you use? its so nice
+@user-fi1qj9qd3s,Nice
+@Bhaktivallah,tis video is more like advertisement..
+@alm683,awesome Mosh. Your teaching style is concise and to the point. I am subscribed to a number of online IT learning resources but this is by far is the best intro to React that I went through.
+@sachingupta1297,First of all after seeing this educator video i thought he is Jonny sins😂
+@Abdulazizaziz-cc4nq,"Your are Guru of tech sir.
+Sir can you teach us where to start ethical hacking what to learn and can you show us steps? Please Sir."
+@BrandonTramel,lost you at the 58 minute mark. The Console is saying that the onSelectItem is not a function. I'm not sure what i'm missing here.
+@2DGirls4lyf,"Hi, great video, one question though. I had to stop the project in order to attend other matters and when I tried to go back on to it today, npm start would not work. The error ""Missing script: ""start"" appears. I tried adding a start script to the package.json files but it still would not run, it came up with the error ""module not found"" and I believe that this is due to the fact that I did not put the correct value in for the start script but I do not know what value to input, any advice would be greatly appreciated."
+@turglow01,"Could someone explain to me why the function we created around 44:10 (handleClick) doesnt need to return anything, but the one we created around 36:10 (getMessage) does?"
+@violet-trash,I'm getting 500 errors when I click your courses
+@ancrobot8399,"This was the most helpful thing in a while. Most you go thorugh the errors the same way we catch them. You dont just spoil the solution on why we are getting the error. So many times during this course when I got an error, I saw the hints that you gave and then tried to solve it on my own. Truly one of the best teachers!"
+@happymalyo_,Great tutorial dude! Thank you Mosh :)
+@SerialLinker,"This is exactly the video I was looking for. I'm backend software engineer since 13 years, I want to progress on the frontend development but usually I found tutorial that are not detailed enough for me. Here it's really clear, put I my playlist and let's finished all my personal project which are working fine using postman but without any frontend ^^"
+@ar-ig1ho,"If I subscribe to part 1 of your React tutorial, will I be able to view part 2 as well? or its 2 separate subscription payments?"
+@muradiancode,Your video quality is Next Level . Please make a video on discord bot create with python / javascript . I am waiting for you
+@monzerfaisal3673,"Dude this tutorial is epic. I first started listening to it to check it out quick. It seemed understandable so i followed along over a few days and i'm not only understanding, everything is also sticking to my brain!!! thanks man"
+@ranjandutta7996,"Mosh, I have one straight forward question is this worth to learn flutter in 2023?"
+@ikhanvids2804,Need a complete and comprehensive course of Flutter like Python you done of 6h.
+@Code.with.kk1,When I create react app i get only package.json file not other files why is someone can tell me
+@abhijeetpratapsingh478,"I'm from India
+Please give subtitles in English also
+Because I'm not able to understand aus assents"
+@mark_pherz,Great video! I knew nothing about react and programming at all just an hour and a half before and now I'm building apps and working at meta
+@jonasking3670,6:06 Do not follow this step if you also use VS Code to write python programs.  VS Code regularly gets things wrong when it comes to white space.
+@ibrarsandhu1251,Can you please let me know if the new react course is only supposed to be two parts or is a third  advanced part coming out?
+@Muchuchuuu,really good tutorial!! thanks alot
+@user-wx5ue4xw1y,"bro, i'm starting to consume english content about code and all this things and ur channel help me so much, i love how you explain complicated things in a simple way, i'm thinking about buy ur complete course!!"
+@mnaufalfarras_,Very enjoyed watching this video and thanks to Mosh who created this amazing beginner tutorials. I think this video can easily understand by someone who started using ReactJS now 😄
+@tarunakantakumbhar5725,When will the next video come? I'm desperately waiting. Please push the next video..
+@mohammadtrabelsi1699,"Thank you Mosh, Tunisia"
+@mcrazick8662,"This course is so enjoyable to study. My past React experience (when I started using it for the first time) made me give up XD. But after a while, mastering JS in the meantime, I decided to come back, found this video and yeah, brings confidence back. Great video!"
+@jonldavis,"Near the beginning when he uses the If statement, make sure you put the else statement with it because <Message> will give an error ts 2786"
+@uxdlozi,You're the best!!!💯
+@benchracer2171,"I think the Typescript was rushed into this making it confusing.
+Perhaps label not quite ""beginner"" unless you can improve the introduction of Typescript."
+@ahmedifhaam7266,Anyone knows what theme this is ?
+@abiodunmustapha6930,When code . doesn't work to move things from terminal to studio code how do we do it by dragging
+@hamzakhan4341,theme name?
+@cheeksmcclappeth6407,"My fragment isn't fragmenting. Console says H1 cannot be its own child. Any ideas? I also don't have an option to wrap abbreviation -- so, I'm typing in the fragment brackets manually.
+
+Thank you for the video nevertheless -- very insightful."
+@gistudio5888,"Thank you for excellent turorial! if you don't mind, I would like to kown your ""Prettier' setting? I follow the tutorial but the code style is not smae as you. It's too tidy"
+@unalysuf,"Thank you so much for this tutorial, I have just finished. I appreciate your effort "
+@learnerground,What kind of vs code theme you are using in this tutorial? Please tell me.
+@fahimismailmagdum8468,"Every time trying to purchase tutorial, it says, card is declined"
+@ndroidLover,Hey @programmingwithmosh please make a complete course on tailwindcss
+@afro_rush3882,How do you get all those cool icons next to your files?
+@coldandwetvfx,Is it fair to say that this tutorial is for experienced programmers who are beginners at React?
+@karlwillo7677,I just keep getting a 'npm ERR! 404  'create-vitte@4.1.0' is not in this registry.' Error 404? Trying to update my skill set from Dreamweaver and Adobe products to React and Next.js. Not finding the move easy at all lol
+@SuhailKhatarnok,"Hey Mosh, love your work. Can you make a fullstack course with NextJS, NextAuth, graphql and mongodb using typescript and maybe dockers at the end. It would be the ultimate fullstack course"
+@hannyfransis8107,Mosh you are great !!!!
+@nafimahmud7842,love u sir
+@tinahomayouni3900,it was amazing about learn TS !!
+@emeric-victor,"As a beginner, I find it a bit frustrating that you go through multiple ""its also possible to"" cases. I understand that there are 10 ways to do that. As I am learning the basics, I want to learn the version that will solve my problem 80% of the time. I am thinking that the other 9 ways that will solve the 20% of cases can be moved to an intermediate level. I am losing sight of them anyway..."
+@mohammedlayes9248,"Hi, Mosh! If you don't mind me asking, how much JavaScript does one need to know prior to starting with React, please?"
+@Rajalakshmi_138,Litterally I tried various yt tutorials for Reactjs....I got some error that I can't rectified....but this tutorial is just awesome It working fine....happy tears😭
+@soupnoodles,"Could you not have mentioned at the start of the video that the ""Ultimate react course"" you were talking about wasn't this video itself? That totally misleads people to think you'd be building and deploying that application within this course. Anyone reading this: **You have to pay for the actual 'Ultimate react course' and this video just isn't it**"
+@alex_blue5802,Mosh's courses are the best way to learn.  I love how he gives exercises so you can make sure you understood.
+@CanalCambalhota,"Great video! Thank you, Mosh! Which is your theme in vscode?"
+@johngoutung1229,"I did struggle to learn React. A lot of wasted time.
+The problem? I did not know the basics of Javascript in first place. You need to walk before you can run.
+So I took a few very basic books (books, not complex tutorials!) and learned the fundamentals.
+After I learned the basics of Javascript, learning React became much easier.
+Edit: For those asking about the books, for the very basics I learned with ""Javascript In Less than 50 Pages"". 
+And to develop my knowledge I learned with ""Head First Javacript Programming""."
+@weluvprogramming,Can you please make a Turorial of Kivy
+@sapdlo,50:47
+@karlojune,I like your theme. What is the name of it?
+@taucix,Wissenswert Danke für das Viedeo 😀😀😀😀😀
+@monat_son,"iam gonna put it out there, you are not gonna learn it in 1 hour. But don't stop."
+@karimkimou1185,I wish you create a Flutter course
+@florianunterfrauner2041,"is there a convention to use ' instead of "" in React?"
+@kourosh4018,Can I create app with html css ? Is there anyone to guide me?
+@faniloandriamarohaja3776,This is a very nice tutorial! It's easy to follow.
+@user-lw5ex3nf5d,Great content. Thinking of NextJS course?
+@vrojak7636,"Thanks, lets see how well this prepared me for my job interview next week 🙌"
+@velvetknitter,"Amazing! Thank you, I've learnt so so much. You make learning these things so engaging and clear."
+@wordinfo4ever,"داداش ای ول
+زیر نویس فارسی رو هم روال کن که دیگه خیلی باحال بشه"
+@dywa_varaprasad,35:00 first session
+@ahmadrezamirzajani9015,Nice
+@13taras,"Has anyone purchased the full course? If yes, what is the impression?"
+@juniorMr,"Mosh the way your explain is really amazing. 
+I don't know how to thanks you .
+I will buy the complete react and react native course"
+@andrej792885,"Does anyone has problem with npm install, i have error with typeacript eslint scope manager version and can not continue with the course?"
+@domce4444,"As a somewhat beginner with Javascript and React I thought I would give myself a chance and walkthrough your video doing things myself step by step. I've hit a wall on the first step 'Creating a React app', after npm run dev the app returns this message ""[plugin:vite:css] [postcss] Cannot read properties of undefined (reading 'config')"". Tried to Google it and unable to solve this on my own. Any ideas what to do here? Is Vite crucial for learning React?"
+@ionguzun3952,"does someone knows...is this video a reupload, or is new?"
+@htmlfivedev,Just bought 4 more courses from your site. Awesome as usual. The sad thing is that still there is no course on React Testing (Jest) ... why why why 
+@user-ut7sr7dj6b,I love your course sir and I want to buy full 8 hours course but i don't have that enough money. So is there any other way to get this.
+@CodeRoyce,Youre a inspiration for me sir❤
+@durrezahmed7091,Simplicity in Complexity that's what Mosh is known for.
+@baroxirfadacademy0,thank you mosh for updating this tutorial we love your tutorials 🥰
+@Myrmwyrm,Hi why does your vscode terminal look differently than mine? I have iterm2 and prettier. For instance my folder path is not shown above my cmd line
+@chadzulu4328,"This is a very thorough and easy to understand tutorial, thanks so much Mosh!"
+@diogomattioli,"Thanks a lot Sr. Your tutorial is amazing, helped me a lot!"
+@user-is1ix2zn4j,"is there a little difference between react js and react, because i can't trace an index.html file in my app"
+@albarsalan4173,Thank you Mosh!
+@idevsoftwaregroup,یکی از کسایی که من به عنوان یه ایرانی بهش افتخار می کنم ... ممنون Mosh
+@georgi143,Hi could you include rosetta installation from terminal also for M1 & M2 Mac os. Without which pycharm can‘t be installed. Beginners get stuck at installation.
+@garethmoore9748,"Just bought the course, $30. Will let you know how it goes :)"
+@versatilecuisines,Highly Informative and helpful. Many thanks.
+@apostolosmavropoulos177,Huge  <3
+@samoriab5999,Why is everything done in command prompt like we are in the 1980s????? Dont we have a GUI for react????
+@DyPersonajes,"Amazing tutorial my dude, thank you!"
+@alejozubizarreta6709,"Damn always trying to charge stuff in your tutorials, thumbs down, it was pretty misleading form the beginning I thought you where gona show how to build that website you showed but of course got to pay first as usual."
+@callme_SAUCE,the tutorial is so amazing  its easy to follow THANK you Master Mosh! newbie here!
+@tabotkevin8116,"Hey Mosh, a course on Rust would be absolutely incredible and so many would love it."
+@gulz4u,"So beautifully explained
+Do you plan to upload it on Udemy?"
+@Mmmmdjdhdhdhd,Bro ur the best i am only 12 years old and i learn some python
+@lrdronephotography3054,"It’s a good free course, but a lot of deleting. Maybe just tell us what we can do instead?"
+@tshyamvamsi,"I jut endup 
+
+Failed to load url /src/main.tsx (resolved id: C:/ProgramData/DDrive/React Practise/react-app/src/main.tsx). Does the file exist? (x2)
+
+after running npm run dev"
+@md.al-amin9670,just awesome
+@alpealfanta3267,Do you have Flask tutorial?
+@user-dh2mk1pb6k,which theme he uses in vs code?
+@herbert_M,Am I the only one who found props difficult to understand. I was so stuck but didn't give up. I tried some other resources like w3schools and finally got it after struggling for close to 2 days
+@blisterfingers8169,"An actual beginner who used this tut:
+""Yeah, I know how to use react... Wait.. That's the wrong extension, where're the types? Hang on, what do you mean install it with npm? Can't I just just my arrow keys and pick from a list?""
+The tutorial is great but it's not ""React for Beginners""... it's ""A detailed tutorial on React with Typescript using Vite"" which is a lot different. 
+That's fine too but you've gotta educate the beginners on what the hell these things are and why we're using them..
+But I guess that would get less views."
+@akssagir5411,Kindly make a video series on flutter app development with some interesting projects....
+@talharehman1101,my javascript is weak  is it ok to start learning react ?
+@mohammedamer7896,hi there. when i click on local host i get blank web page
+@Ninjajitsu562,I can’t learn without knowing html?
+@user-ec1vf5cn1q,What software do you use to record the screens you record? Do you do these zooms manually or automatically?
+@krishna6820,59:21 is updating heading to blank!!!!!!!!!! HOW?????
+@halreraj,hey mosh please upload intermidiate course of c++
+@deepalikakkar4464,58:00 this onSelectItem is looking something similar to output event emitter function of angular. Am i right?
+@dushananuradha1098,"I am a QA engineer, but really eager in learning frontEnd dev. This tutorial has refreshed my React knowledge. Really great content."
+@muhammadjunaid3167,Thanks Mosh. this is an awesome video.
+@koto6177,respect for teaching people
+@alshuwaiee27,Do I need to know advanced things in javascript to understand React ?
+@sundarapandim1104,"Kindly Post Videos about Chat GPT-4 Basics and How to use to build websites and Applications and API How to use.. Full tutorial about Chatgpt-4...
+
+
+Full Video About ChatGPT-4 API & How to use it to build websites and web applications (or) What SaaS applications we can build.. Full tutorial about Chatgpt-4 & API Use."
+@pradeepkumar-by9io,Dhaivam ya nee
+@wilsonimpson2788,This was incredibly helpful! Particularly getting my IDE set up to then work alongside GPT4/CoPilot... nothing can stop me now! :)
+@sarmadrafique426,Please Next js with typescript and Prisma . Because it's the latest in the game
+@pegahes1079,عالی بود. ممنونم.
+@devbasit,Whats your next course?
+@thetechfreak,"React Dev Tools are not working properly, I am not able to see the Components and Profiler options in the Developer Tools. Can somebody help me with that."
+@mohammedswalih7547,Idk why but I'm only getting a white page only I followed the tutorial correctly i believe hope someone could help me
+@pranavbindra4655,The initial hello world code has no output to my browser. What can be the issue here?
+@emmanuelchinedum6998,can I do this course without knowing javascript?
+@W.i.s.e.K.i.n.g,"please do a dart tutorial Mosh please do a dart tutorial Mosh please do a dart tutorial Mosh please do a dart tutorial Mosh please do a dart tutorial Mosh please do a dart tutorial Mosh please do a dart tutorial Mosh please do a dart tutorial Mosh please do a dart tutorial Mosh please do a dart tutorial Mosh please do a dart tutorial Mosh please do a dart tutorial Mosh 
+Plssssssssssssssssssssss🙏🏽🙏🏽🙏🏽🙏🏽🙏🏽🙏🏽🙏🏽🙏🏽🙏🏽🙏🏽🙏🏽🙏🏽🙏🏽🙏🏽"
+@waveless7323,BRO AWESOME COURSE. I purchased the part 1 course and I have already finished it and now I am confident in coding websites. I am eagerly waiting for the part 2 course. I am also asking a request to make an updated React Native course with expo and routing and a full mobile application tutorial with firebase as backend. Keep up the hard work!! 👍
+@JameswithWebHoting,"I love the positive energy of this video, it's infectious and uplifting.
+The way you present the information in this video is so engaging, it kept me hooked from start to finish."
+@lolololi3323,"Thank you! Awesome tutorial 
+
+My bookmark: 41:17"
+@Liubov_110,"Mosh, Thank you so much for this excellent tutorial. 
+
+As a Python Web developer on a studying stage sometimes I see mentions of React in job openings for fullstack development. Now it will no longer scare me, as it is with html/css/bootstrap collection.
+
+By the way, I guess Django Template Language took {{ double curly braces }} only because {single ones} were reserved by JavaScript"
+@samer9277,"I did everything you did upto 26:12, exactly the same and it didnt work. my page just dispalys list group 2 words in text and not in line breaking groups. this is really hard."
+@thespiritualjourney369,if u r teaching react then y r u using typescript?. just simply use js instead.
+@TheGaneshshow,Thanks a lot Mosh:))
+@Harunaka10,"It's frustrating to follow this as a code along instead of in a lecture set up, because you give 0 time between saying what you're putting in and cutting away to move on to the next thing. I've had to pause like 8 times and go back because I'm trying to follow along and you've blown on to the next thing before I've started typing... at .75 speed."
+@darma5637,"thanks, mosh i learn a lot from this one video.. from learn useState hooks, than how to handling props, and more, more."
+@IsxaaqAcademy,Great tutorial
+@marcw6875,"I bought the full course a couple weeks back because I saw it was on sale.  I've been enjoying it.  Prior to this my only comparable experience was making a web app for a class that used just vanilla versions of HTML, CSS, JavaScript, and PHP.  I'm liking how react comes together so far and have already been thinking I should try re-creating my class project using react.
+
+I don't know if Mosh reads these comments very often, but if he does, I have just one critique for his classes.  I wish he would wait for at least a count of two after he types some long line of code before hitting tab, switching over to another file, etc.  Especially after he has typed something that he knows his students will be trying to type as well.  There have been so many times where I've been trying to wait until he types the full line before pausing, but then I miss it because he immediately moves somewhere else.  lol.  It's a minor nitpick, but I thought I would mention it.  Otherwise, I've liked how the course is set up and I'm looking forward to putting together the bigger project in the last section.  :)"
+@jltsantara,"[15:21] Oh, you have to refresh the page to see the changes. Mine did not auto refresh and i thought I had done something wrong."
+@bharath2508,the best react tutorial for beginners.
+@bhavasha7713,am planning to do a course in your site but its showing only $ for pay how can i do please guide me.. :)
+@emjayi4289,مایه افتخاری👌
+@avivhurvitz,"I'm a long time developer, but novice at web development. This tutorial was perfect for me. I appreciate how Mosh walks you through real development practices: incremental development cycles, using the IDE and tools, looking at errors, testing as you go. Thank you Mosh!"
+@StandaBlabol,"Thanks for very helpful tutorial!
+It is nice to see that using function + TS approach - React just changed from ""bloody horrible"" to ""just hideous"", compared with Vue3.x script-setup + TS .
+React is still pain but much better than previous class JSX version."
+@alikhanmehboob610,"Amazing as always!
+We want Kotlin Springboot course as well 🙏"
+@web.design.and.development,Thanks
+@elangoelangovan5756,"Dear the channel owner please sorry for you  I don't know English fully
+I beg my life travel
+I am from India I got education loan from my country bank rupees 250000
+But I cannot repay my loan 
+Because I got one accident broken my right leg so I cannot walk properly
+But bank will ask loan rupees 250000
+Otherwise bank will recover my home
+I have small house only 
+My house not that my hand I live not possible
+
+So please help me every subscriber give me small money my education loan"
+@nbizzle,Thanks Mosh!
+@lionzan,"Hello Sir.. im using pyroid 3, and i already created a code for bmi calculator and basic scientific calculator, i want to merge this code using a module but idk how."
+@alecsmith8462,Does anyone know what theme Mosh is using for VScode?
+@andresantos-ud4ht,"Thats an amazing course. I totally recommended. With detailed explanation, full of examples and exercises. In the end, there as an project, exemplifying everything learned."
+@muhamadlangkau9873,SandhikaGalihNyaLuarNegeri
+@xxcc5101,"Hi , I want to develop mobile applications, is react good for this? I am a little bit Confused between react and react native"
+@oussaman.aouini.talan1,Hi mosh can you do a video about SalesForce ?
+@Sawon90,"Coming from VueJS world, ReactJS seems very complex and hard to learn."
+@vusalnovruzov9192,"Hey Mosh, nice toturial. But I have a small issue with Vite. in your project whenever you make changes it marks the files with the Capital letter M just like git init does but in my project it does not do it. Could you help me with it , please?"
+@killermusic4526,Can you iupload a video upon Updated React course for beginners in Javascript variant.
+@nonamejustusername,"@Mosh, 
+We want to use identityserver4 with react for login so please create a video on it. After login, we want to access API through the access we got from identityserver4. The main thing we are looking that how can we hide request and response for these login calls and API access calls from the browsers network tab so how can we achieve this? Looking forward to hearing from you soon."
+@tanveeransari989,one of the best trainer in universe.
+@mizile1486,"I completed a short React course before coming to this video, and this video showed me more things that were skipped in that other course. Thanks"
+@ArthurWuYeah211,"Hi Mosh,
+
+When I started programming in 8th grade, your Java course was the first course I used to teach myself coding. Now, I am about to go off to college for my Bachelor's degree in Computer Science. Thank you for guiding me through this subject, I really appreciate it. Your tutorials have truly opened this world up for me."
+@sawmin7755,where I can learn java full course?
+@atheel5678,Thank you for offering the course
+@abirsonet925,thank you It was informative
+@peterballa6060,"Great, enjoyable and useful video! Thank you!"
+@johnnguyen1655,"Hi Mosh, does the full course you mentioned in the video avail in Udemy?. I have professional Udemy acc for enterprise so it would be great if the course is there."
+@ThatOneSkywalker,"Hi, what theme and don't are you using? It's Soo clean. 😍"
+@makanjuolabolajistephen1582,"Please look into your payment method for the all access course monthyly subscription specifically the use of debit card.. It keeps declining my debit card, both visa and Mastercard. I'm from Nigeria.. I hope something is done about it so I can subscribe and learn. Thank you."
+@manuelenng,He taught the course like a professor
+@vaishnavisivabaskaran243,Can you do a tutorial for mern?
+@deeptisheoran8279,"Anyone else got stuck at npm run dev 
+
+I installed vscode and the window terminal as i started the video and everything worked fine but the npm run dev command is not working for me"
+@kainoah5563,at 1:17:12 how do you utilize the fade animation in the alert.
+@jotasenator,"nice see you again Mosh, sharing!!"
+@hunterc4187,is there going to be more parts for this series?
+@andrewyorke6399,You are exceptional :)
+@AdnanKhan-yg4ng,when will we build a gaming app u shown in the video mosh ?
+@AdnanKhan-yg4ng,Is this typeScript or javaScript tutorial ??
+@AdnanKhan-yg4ng,Is this tutorial based on TypeScript or JavaScript
+@MrKgshrestha,do you have laravel tutorial ? I like your teaching style very much so. Thanks
+@jaibunnisamohammad9988,"i am using shared hosting, when i develop pwa using html,css,javascript(with jQuery) for frontend and php with mysql on backend simply upload to public folder of shared hosting, 
+so please show migrating from this setup to react with nodejs hosting or implementing react in share hosting environment"
+@daniellepashayan773,never purchased a course so fast in my life
+@subhranilsarkar1422,Awesome 🎉
+@sahildas.,"on 44:00 I gave it a try and got none, alerted it and got [object Object ]😂😂😂 anyways, code for ListGroup.tsx below:
+
+import { MouseEvent } from ""react"";
+
+function ListGroup() {
+    let items = [
+        'New York',
+        'San Fransisco',
+        'Tokyo',
+        'London',
+        'Paris',
+    ];
+    const handleClick = (event: MouseEvent) => alert(event);
+    return (
+            <>
+                <h1>List</h1>
+                { items.length === 0 && <p>No item found</p> }
+                <ul className=""list-group"">
+                    {items.map((item) => (
+                        <li 
+                            className=""list-group-item"" 
+                            key={item} 
+                            onClick={handleClick} 
+                            >
+                                {item}
+                        </li>
+                    ))}
+                </ul>
+            </>
+    );
+}
+
+export default ListGroup;"
+@Suraj03.,49:51
+@albertoguzman9390,Font name?😢
+@pranavmahajan8084,"Hello sir, Im from india and following your videos from a long time. I really want to buy your course of react 18 + typescript but financially I cant buy that course. It would be really helpfull if you lower the price for the course for sometime so I can buy it. I'll appreciate your feedback on this. Thank You"
+@rustyandduke282,"Hi Mosh, Loved the explanation. I'm new to React and all this. I believe we need to turn off the 'format on save' feature during the Alert component example, as I could see autoformat changed the code as well brackets were removed from the return statement on saving. Took a minute to figure it out what was wrong when my Alert box was not appearing even after adding correct bootstrap classes. But my main question is is there a way out , can we work with on it without disabling the 'format on save'  ??  🤔 TIA"
+@tommasotranchese150,"this is  probably one of the best tutorials so far, I just wished you went a little slower sometimes cause I had to stop and catch up with the code, but overall I understood like everything, so it worked! thank you  <3"
+@AfroditiK54,"I'm sure that you are very talented in what you do but oooohhhh this was very difficult to follow as a beginner. 
+The problem is : you  first explained what we *shouldn't* do (like ""oh for this  you could type this code and bla bla"") and then what we *should* actually do (""but instead of doing what I said previously, do this!"") which was very confusing. I was banging my head throughout this video because I constantly had to delete the code I wrote in order to change it with a ""shorter"" or more advanced code. If you are making a beginngers video, first explain the very basics, even if they are  not the most convinient, and then move on to shortcuts etc."
+@chasing.those.vistas4185,"Mosh, unfortunately, as soon as I started following the tutorial, I ran into an error when I ran the ""npm install"" after cd into react-app folder,
+""Found: vite@undefined
+npm ERR! node_modules/vite
+npm ERR!   dev vite@""^4.2.0"" from the root project""
+did someone encounter a similar issue?
+as someone who is not familiar with node or npm, I am not sure how to progress from here. any help would be appreciated (I tried looking this up on stack, which wasn't very helpful though)"
+@lyeenglee,"Hi, sir. Hope these courses may be purchased at Udemy also!!"
+@ReasoningBanking,https://youtu.be/SqcY0GlETPk?t=1227
+@muhammadhanzala3556,This was awesome🥰🥰🥰. waiting for the next part. when it will come?
+@alecsmith8462,"can someone tell me what icon theme he's using for his folders/files in vscode, I've always wondered but I never knew what is was."
+@jopadjr,5k+...Thanks Mosh. Great tutorial !!! May I ask if the React mastery course has a topic about converting old react to vite version? Thanks in advance.
+@lukefeng2919,"Wonderful content, clear, concise, and informative!"
+@maksatgr,1 hours and ONLY alert button 🤣🤣🤣
+@user-ov6dl8il9o,Can anyone tell me what this vscode theme/font it is. Because its amazing.
+@khaleelrehman5327,"Hi Mosh, thank you for the great React course. I love the theme you used in VS Code. If you don't mind, can you tell me which one it is?"
+@bengrzybowski2487,"If anyone gets stuck with an error with bootstrap failing to import, delete your node_modules directory and re-run npm i that solved the issue for me."
+@kianebtekari2028,دمممت گرمم
+@rakshiths6852,"Please include unit , integration and end to end testing for the part 2 of the course. That would really be helpful to develop robust react apps in the real world."
+@MrNdunga,"Good day mr Mosh where can i get certified to be a react js developer
+?"
+@wingsoffireblack91,Hey Mosh can you please make a video on kuberenetes as well please
+@charbilrom3153,"Yep,  let's hook to react."
+@raphauy,Thank you!!!
+@Quiestre,"importing bootstrap didnt work [vite] Internal server error: Failed to resolve import ""boostrap/dist/css/bootstrap.css"" from ""src\main.tsx"". Does the file exist?"
+@abrahamaddai6376,https://youtu.be/CINI2p3uLxg
+@noseporqueesminombre8472,vengo de una recomandacion de chat gpt
+@philippearras8154,Golang please Mosh❤
+@zoltancaputo9562,Just Amazing lesson !!!! Tks for share ...
+@luongmaihunggia,"Literally the first thing I see is the error ""Cannot find name 'React'"". Shit tutorial, can't even make it pass 13 minute."
+@jiaaggarwal5873,thank you
+@thefront5871,"I don't like using Prettier extension because I use inline SVG in my HTML, so that I can animate stuff, and Prettier causes the <line /> tag to put each parameter on a different line! I HATE that!! There seems to be no way to configure Prettier to do anything else but it's default behavior and for that reason, I've uninstalled Prettier!"
+@thefront5871,Didn't you use to be on Pluralsight? What happened to them? They use to be awesome with their video content!
+@bp-ob8ic,This was great!! Thanks for the update. A ton of things that make so much more sense now.
+@bigc4290,What VS Code extension do you use for the visuals in your explorer? Ty
+@RanalaManaja,"I would like to request your assistance in regards to following a video tutorial while ensuring that I am not merely replicating the steps blindly. Would you be able to provide me with documentation that outlines the guidelines for creating a React application using either Vite or CRA?
+
+Thank you for your kind attention."
+@yasithmanthrirathna7308,"Mosh, I am a student of you.When do you release angular 14 course."
+@cardwelljohnson,Anyone know the theme color?
+@chalkao5071,"I know you have invested lots of time making videos, but would you kindly remove old lessons from your website? That helps us to invest in usable current version based lessons. Thanks."
+@kenjicrespo7627,"Kenji Crespo
+1 second ago
+Hi! I got errors. failed to load config from C:\Windows\System32\myfirstapp\vite.config.ts
+error when starting dev server:
+Error: EPERM: operation not permitted, open 'C:\Windows\System32\myfirstapp\vite.config.ts.timestamp-1679842359821.mjs'. How to fix this?"
+@sauravkumarjha2838,Your Courses are goldmine for me! Absolutely love the way you structure and deliver your courses with huge efforts.
+@larryamisola,Will this be available in udemy soon?
+@matyasember7345,Oh so you have updated the 4 years old tutorial. Nice.
+@papa_ethan,ONE OF THE BEST PROGRAMMING INSTRUCTOR === MOSH!!!
+@JohnSmith-zl8rz,Where's the VUE course?
+@eduardofranca181,"When you access a website made in reactjs, does the browser download every single page and asset of the application at once? (Images,libraries, videos,etc)?"
+@rohankademani6406,I needed it hahaa
+@DanneManne88,"It’s a scam, cost money!"
+@MrLeadVideo,What is backend DB?
+@pstha4537,Remove your annoying ad about yourself in the video. Too much repetition.
+@burnedbrowncoal7536,"dear @Mosh it is lil bit frustrating when i hear ""it is my course first 1 hour and bla bla..."" i though a full coverage of react...so sorry for that... 😢"
+@macroyal2002,"Hey ! I bought and finished your course. Excellent work as always :) 
+
+When will the next part come out, and will it be added to this course or will it be a new course?
+
+[UPDATE]: Mosh has released the part 2 course , it's a completely new course which continues the previous course"
+@coderplusplus,"Hi Mosh! You said that when we update the state, react will compare the old virtual dom and new virtual dom, and based on what is changed react will then update the real dom accordingly. But, doesn’t this process make our application slower? What is the time and space complexity of this process?"
+@user-vs9bf1xb9b,thank you
+@user-vs9bf1xb9b,"I love your video so much. In my native language, you are a “大佬”[dalao]"
+@Hodan438,How to fix npm missing script start error
+@mkostrikin,Just become an frontend developer with reactjs
+@CrazyAOT,hello i was wondering if you can make a lua tutorial it would help me a lot! the video was amazing
+@hammillanvhanne1417,thank youuuu finally I understand how React works
+@tyd-hs3nq,"Hi, I was doing the course and was loving it until I got an error :
+
+""Failed to load module script: Expected a JavaScript module script but the server responded with a MIME type of ""application/octet-stream"". Strict MIME type checking is enforced for module scripts per HTML spec.""
+
+I had started it a few days prior and everything was working fine - I got to around 50m, the start of the Props chapter. As soon as I loaded up my laptop this morning and tried looking at the list, nothing shows up, only this error in the console.
+
+Any ideas? I tried it in a different browser and still got the same response."
+@JasperZeroes,"You're a great tutor, Mosh."
+@PlentyOfPooches,"BEWARE - Mosh is a scam - I bought his Mastering React course. The course told me to download a specific version of Node JS and React which is no longer supported. I therefore could not follow his videos at all. I sent a support note asking him to either update the course so that the technology is not out of date or refund my money. He didn't even have the decency to even respond to my request. Basically, he stole almost $200 of my money. I instead enrolled in a similar course on Udemy which was up-to-date and a great course. After this experience, I read a bunch of other reviews of this course and they all said the same thing. Please do not waste your money on any of Mosh's courses."
+@johnnyholiday1150,This is great thanks!! I hope that every project will show us how to use different tools and react features :)  Thank you Mosh <3
+@kartik14007,"bro i actually shocked when i search on chat gpt for best coding toutorial 
+you are lucky"
+@MichaelRinghusGertz,Hi Mosh. Will this course be available on Udemy? I preffere to select all of my courses in one place. Which is why i asks if it will be available in Udemy.
+@freeyourmind7538,"6:50 terminal window....??? How??When???Why????
+When did you open this terminal window and how and why?"
+@webmobile21,we are also waiting for advanced topics
+@thonthon8248,Thanks u so far
+@NishantjonyJaiswal,Fun
+@JoshuaMusau,"Mosh, you're heaven sent! Thank you..."
+@ananasior,12:15
+@HaileabAbrha,"The good thing about this tutorial is ""being the best"", and the bad thing is you can finish the course either if you are rich or if you live in Europe, N.America, or Australia."
+@maddihanna4414,"Hey, is this course include the authentication and routes that you said you will add?"
+@sukhlalsingh,Loved this. Great job Mosh.
+@habibrehman2640,"Hi Mosh, I have sent you a query on your website. Can you please check that and respond.  Thank you :)"
+@johnsitjar4521,"Good day sir do you have a tutorial for js,html css with an mvc approach.also when moving to reactjs.Thanks"
+@deskscience650,https://youtube.com/shorts/VCKM06M6APg?feature=share
+@mohammadabbas1623,Mosh can you please provide the discount again as i wanted to purchase the course but fees is now $149 😢
+@explorewithrohan1994,"Hi Mosh ,Do we need to buy part 2 separately as well..?"
+@betaxox2156,I can't access to this course RIP
+@arenafidemaster,"Can I have a new link, the link to buy the course is not working for me."
+@sivaprakashiv5173,"Mosh, this course offer is expired now. Could you please update and keep it available. Thanks"
+@doukuest,This video is gold.
+@ashiyaken3852,Thank you 💖 Mosh!
+@GilbertoMadeira83,"33:00 when dealing with collections of simple items , you can use array.map( (item,index) => {}), the second argument to the map callback function returns the index of the element of the original array, then, you can simply set the key property using that index"
+@jediampm,"Hi,
+make a video on your thoughts about the new react docs and the fact they recommend nextjs and others related frameworks. Is this good for beginners?"
+@sriharshasai6177,17.05
+@jahideljah5746,Thx a lot for hearing us Mosh
+@mohrex,"Hey mosh , I'm from Iran , it seems Iran's IP is banned on your website and we don't have any access, we are really restricted and poor , I wish that one day we also can have easy access to the fresh informations , I'm really sad and depressed because we even don't have global payments like pay pal and ... to buy courses😔 I wish that we could live like other normal people"
+@MRKING-kv6xg,"Try not to oversell shit, you promised a full course, this is bogus!!!"
+@geniusmaniacs5052,Mosh is the best. ❤
+@Eqqoftw,"Hi Mosh, thank you for the great React course. I cant wait for the advanced topics. Are you able to share when we can expect the advanced course?"
+@sspirial,"Can't wait for the next one Mosh, you never disappoint"
+@bilalnisar3074,"when I try to run the app with local server its show the error ""crbug/1173575, non-JS module files deprecated"" can you please tell me what is the error ?"
+@annanlanre7419,First video I'm seeing using node version 19. Finally!
+@kakyoindonut3213,you're a savior for uploading this right in time as I was learning react!!
+@mohamedansarym6312,Bro can share notes of react
+@sunilshastry,"For everyone asking what theme he's using, its called ""oh lucy"""
+@psuvlogs8526,01:02:00
+@myahya968,"Very nice explanation , waiting for the next part"
+@utsavshrivastava9481,"What about react hook and redux 
+Is it part of react course or some extra library using with react ?"
+@marwans4018,Any upcoming angular course ?
+@syedabraizmehdi2960,"Mosh, please make a video that covers advance react and a separate video on advance javascript. And I would highly appreciate a video on creating a practical responsive website using REACT. Highly appreciate it brother"
+@thivagarmurugan8626,Hello mosh I am excited to purchase your course but i have a question. I only know vanilla javascript but you mentioned in the website that used as typescript in this course. did you teach typescript along with these course.is it going to affect my learning this react course and making it hard? because I didn't known about typescript or first i need to learn typescript and catch up with the course.please reply i am eager to learn with you.
+@bryanDevsJS,Hopefully soon I will get all your course Mosh
+@earningsandsuccess1363,Supercool 💓💓💓💓
+@blanketcetera2781,"Mosh, it seems there’s a problem in your website. I can’t buy your latest react course using safari in my iPhone. Even with Google chrome. After choosing PayPal, nothing happens when I clicked buy now."
+@letreinte1681,thanks <3
+@ankitagrawal9140,"@programmingwithmosh
+Please redo your node js course as well. Amazing content.❤"
+@johnmchale1,"Very good, but why have the font so big?"
+@mikee1of1,Thank you mosh. Appreciate your effort.
+@infoversal9059,Can anyone tell me why we use VITE instead of create react app? what advantages does it give? Are these advantages really significant?
+@akaijoe3582,Looks great! Vite was a good choice for a modern react course. Hopefully that means we are one step closer to a NextJS course 🤞
+@akaijoe3582,who needs a state management tutorial course?
+@zainul1266,Most awaited tutorial. Thanks alot 😃
+@maddihanna4414,"Hey, is this course include the authentication and routes that you said you will add?"
+@hasyidanparamananda,Hello is it different with react js?
+@-0-__-0-,I was planning to follow a particular Django tutorial but there's no other resources I can find except for one that uses react in the front-end. How fortunate I was in discovering this completely new 1 hour tutorial. Thanks man ya the real MVP.
+@roooooooooooooooooooooooooooot,Can you make one for SolidJS (SolidStart) too?
+@annayaannaya9407,My brother purchased your course regarding html nd css series for website development but disappointed to see that chatgpt will replace web developers . What to do now. Should he give up. Please guide
+@Jenny-ii3cd,31:07
+@lucap9248,Does he actually creates the website shown in the first minute? Or is this video a clickbait for his course?
+@juniorMr,Amazing course
+@user-rk3xp8op1z,"Program 'npm.cmd' failed to run: The system cannot find the file specifiedAt line:1 char:1
++ npm create vite@4.1.0
++ ~~~~~~~~~~~~~~~~~~~~~.
+At line:1 char:1
++ npm create vite@4.1.0
++ ~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceUnavailable: (:) [], ApplicationFailedException
+    + FullyQualifiedErrorId : NativeCommandFailed
+
+
+can anyone help with this"
+@gillbates9668,please do one of these for angular too! ❤❤
+@naimulsayed1339,Amazing tutorial. Just purchased the full course :)
+@Nxck2440,"I have an interview tomorrow where they will ask me to make some kind of app in React. I've barely even coded in JS before, let alone React. Your vid was just in time, tysm!!"
+@muhammadsuhaibraza784,"Sir, I also make mine personal voice assistant ai just like chatgpt  that answer all my question and more additional function than chatgpt. If you are interested reply me below so give you the link of my python file....."
+@muhammadsuhaibraza784,"Sir, plz make a tutorial of what is linode , how to use it in our virtual machines???"
+@winstonmhango3437,"My first encounter was with mosh's React video from 5 years ago...and I belive its still on this channel...now that this is now out, using new react features, I will watch it all...and ofxourse share with my friends."
+@sergiohernandez72,"Finally an updated version of React tutorial! I love your videos so much, but didn't want to invest in the other course since it was class based and outdated, now that you have an updated typescript function based tutorial I'm definitely buying this spring break. Keep making awesome, high quality videos mosh!"
+@isomiddinrahimov3684,"Great Course Thank you Mosh very much !!!
+I have  a suggestion. Can you make a telegram bot  course with python please"
+@billybrightson,Thank you Mosh can't wait for NextJs
+@joymeneses9556,Do you have a tutorial where it Javascript is used with React?
+@willyken2572,"Thank you Mosh, following closely from Kenyan coast."
+@aparnanair2774,"I had some spacing issues when using prettier, my multiline statements all got compressed into a single line. Any idea how to keep it as multiline?"
+@user-ei2rh4pm4g,"Wow nice update to the course I took the first react course from Mosh (Vidly video store) and by that time was a really great course, that course makes me love react for his simplicity to create components, Mosh was my first online teachers and I really enjoyed how he explained all the content and all the concepts. I really like how the React course was updated with all the recent topics."
+@MadhuSudhan-um2lm,"please send spring,spring boot courses"
+@lucianboboc7513,Is this going to be a single course or a series of 2-3 courses?
+@devquen7688,"purchased! good course, thanks you Mosh very much"
+@koala_li,this is the best React tutorial for beginners!
+@federico.r.figueredo,OMG! Updated React course (and w/ TS)? Already bought the new version in your platform. Thx for this high quality content Mosh!
+@hamidhos8101,"hi, What software do you use to make educational clips?"
+@seedorffortunate708,Finally! Thank you Mosh 🥰
+@programmingexpress9302,Mosh please make one course related to php frameworks like Laravel or codeigniter thanks
+@kashibarri10,Yay!!!  Mosh is Back 😍
+@beingwhale,You're a true GEM of programming!!!
+@RavindraSingh-lp9pl,"@programming with Mosh, I took your React 18 course for Beginners, when will you launch React Advanced course?"
+@victoradeniji-sy8gr,Finally! been waiting for this
+@Sammy2100,Thank you so much Mosh. I'm definitely purchasing this full course. I've been waiting for this since last year to help boost my skillset in my new phase.
+@RDT,Good video
+@ropafadzo55,"Finally, I was waiting long for this course on React"
+@raulremesalvanmerode4458,watched part of the other react video of yours yesterday. Great timing on this video!!
+@congdatt,nice course !!!
+@dhruvmitna8465,E
+@zainwasem,Superb Teaching
+@programmingwithmosh,"- Want to learn more? Get my complete React mastery course: http://bit.ly/3l0vWYR
+- Subscribe for more videos like this: https://goo.gl/6PYaGF"
+@sohailmirzadeveloper,Thank you sir ❤
+@Poohbify,Is that the link to your new course you created?
+@TengtengLi-ju5hs,"Hello, mosh, I want to know your VScode Theme and iterm2 Theme ,  which is beautiful, so I want to change to the same one. Thanks."
+@rukacruxer1474,React native
+@khaby8331,hey mosh i want to buy your react course but i have a doubt i want to learn react in js but you mentioned in your course that is react +ts i'm confusing  please guide me ...and also many of us want to learn spring boot from u please make a course about that
+@joel9909,We love you Mosh
+@Ahm3tty,"Bro mosh you're good ,intelligent, expert, well-spoken, teacher but onething only on thing is wrong with you, you know there is qout that saying ;""something you love with your self  love your brother""  the thing that is wrong is that your aren't  Muslim person, me iam no enforcing you to be Muslim but try to know something as you gave time in programming . So I told what I loved my self as ""quote"" was sying"
+@earlybird7080,if you have difficulty installing that bootstrap use `npm i bootstrap@v5.2.3`
+@emmanuelomonzebaguan726,Please create React-Native Course
+@manuelsanchezweb,"Supercool! I also released a crash course from React, but in Spanish and only with JavaScript. Your channel is very inspiring!"
+@pmv9325,That's an awesome course 👍🙂
+@sobanmustafa4457,Please mosh upload next js 13 course
+@keerthikaj,Good content. Thanks a lot for sharing this introduction video.
+@_S_AmitPandey,"Hey mosh, Wanna confirm if the full course along with the project is going to come on YouTube ?"
+@techgamer5729,I want to buy your course from India. Currently it is only in dollars. How to buy your course.
+@chuxville11,Thanks Mosh...I have been waiting for this tutorial for a long time.
+@kingcoder31aug,sir please make a course on kubernetes ✅✅
+@dr.lalthompson4670,Mosh plz put more effort into ur youtube thumbnails. Masterpieces like this ought to be seen by more people ;)
+@mosesolayinks6361,Hi Mosh thank you for yet another fantastic course. I checked through the full course and I noticed there isn’t any topic covering unit testing in this react course. I think this is a very important in modern react tool belt and would be helpful if you can look at adding it
+@frenzy_wave,"Hi, please what's the name of your vscode theme?"
+@2005Azm,Thank you so much Mosh
+@Rasa_b,"مشتبی جان دست‌خوش واقعاً دمت‌گرم باید بگم این کورست از کورس‌های دیگه ری‌اکت نیتیوت پیشرفته‌تر بود و تو تونستی خیلی ساده این مفاهیم رو واسه مبتدی‌ها توضیح بدی و دقیقاً همونی بودش که دنبالش میگشتم
+اکثراً تو کورس‌های مبتدی ری‌اکت نیتیو میان دکمه و ویو و فلکس‌ رو میگن و خیلی به مفاهیم پرکاربرد دیگه مثل کمپوننت‌ها و پراپس‌ها نمیپردازن و آدم مجبوره خودش بره دنبالشون"
+@zohaibashraf3625,Mosh would you like to share the vscode theme you used in your course ?
+@basishumba3153,Hi MOSH. thanks for a very good course. I wish one day you do a course on springboot and hibernate. I will be waiting patiently for the moment you anounce for it's coming
+@Papacrocs,You dey gimme Joy... Hailing from Nigeria.
+@doniaelfouly4142,Thanks
+@minimalsforlife740,Do u have a plan for nextjs or flutter? Pls reply🥹🙏🥹🥹🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏🙏
+@meshkaka,"Whenever i want to get my hands on any new technology, i first check IF EXISTS in this channel  .Thanks Mosh."
+@amerimohammedayoub7272,can't believe
+@karimhachicha8702,I wish you create a flutter course
+@mehrdadmousavi9144,First Like & then watching the video😍
+@sachintharuka6154,❤️🔥
+@EthioFkir,"Mosh  tutorials are the GOAT of Tutorials..
+is mosh reply for me😔"
+@shimiltharayil-qy7hw,@mosh pls update your react course into new
+@oliviergeiger332,When will part 2 be available
+@usmanmarkaz,Plz make tutorial how we make projects with GrapQL in react native plZ
+@eliuddyn,This is amazing 🔥🔥
+@sarmadrafique426,Excited to see how much views this video get in a fortnight.
+@DrHcks666,Best teacher ever ❤️ always love you
+@whonayem01,"Thanks a lot, mosh."
+@shahzadsheikh1459,i am very happy #mosh thank you very much
+@siphillis,"Super glad you went with TypeScript instead of JavaScript.  TS really is the future, and every JS dev would benefit by incorporating it into their toolset."
+@diegoorellana5019,"I was waiting for this course since last year, thank you so much Mosh, you're great teacher! thanks to you I've learn a lot and now I'm using it in my actual job! :') **big hug**"
+@krupal1982,Do I have to buy the second part of the course also? Or the purchase includes  second part also?
+@mukleshossen751,sir please make a video on nextJs
+@Markus-fw4px,"Is there a specific reason, why you didn't use IntelliJ for this project?"
+@sediqiata2678,"00:00:00 – Course Intro
+00:01:55 Prerequisites
+00:02:43 What is React?
+00:04:57 Setting Up the Development Environment 
+00:06:24 Creating a React App
+00:09:17 Project Structure
+00:11:20 Creating a React Component
+00:16:41 How React Works
+00:19:00 React Ecosystem
+00:21:04 Building Components
+00:21:40 Creating a ListGroup Component
+00:27:15 Fragments
+00:29:42 Rendering Lists
+00:33:11 Conditional Rendering
+00:38:36 Handling Events
+00:44:43 Managing State
+00:50:44 Passing Data Via Props
+00:54:42 Passing Functions Via Props
+00:58:27 State Vs Props
+01:00:00 Passing Children
+01:05:04 Inspecting Components with React Dev Tools 
+01:07:14 Exercise: Building a Button Component 
+01:14:15 Exercise: Showing an Alert"
+@jamjam3448,woww a new react course!
+@bilalch898,"Funny how people think they can actually learn or teach React in one hour. 😂😂😂😂
+show some respect bruhhh."
+@CMA565,That kid was  known to be Walter white /heisenberg
+@nutcrackerscrack9861,Stop pretending like react content is something difficult and something that needed to be studied.
+@sinakaya3813,i was just looking for react starter course and wow Mosh uploaded a video just 5 hours ago
+@freetune,10k Views and only 100 likes
+@sudershansingh2839,"This barely scratches the surface of react but good for those who're absolute beginners.
+Also React's doc is a piece of art, read it once and you'll know half of React in a jiffy."
+@harpeter9752,Perfectly!  I still have time to study nuclear physics in 40 minutes and pilot Boeing passenger planes in 90!
+@amirhoseinshams256,"Great course!!!💥🔥
+Thanks for making it!❤️ خیلی عشقی"
+@Arjun1197,"Mosh... I know only html, css, and basic of javascript is that enough to learn react"
+@altafmalik2843,you are legend
+@kartheeknandini3767,"Hey mosh, please update the price in INR also (rupee). Not able to purchase from India in dollars"
+@saeedtalebi482,"Thanks a Lot mosh I really love your teachings,"
+@tayyabgee5503,"Thank you mosh!💌
+I have my web paper after a day. This video is really helpful to study React with all the basic concepts for a beginner. Amazing!"
+@aaravarya4406,It came just in perfect time when I wanted to begin with react. Thank you.
+@afin4684,Please name of theme?
+@merabetzakaria2736,Awesome !!! Thank you teacher ☺️
+@nilanthakumaraekanayake6110,Rust proggramming available?
+@sachinyadav3507,Great tutorial @mosh thanks a lot
+@Andrew-Tsegaye,The master uploaded the ultimate course on the internet for free as he promised!
+@sushieatingcobra,graeepe
+@tasin5541,Any particular reason for using npm instead of yarn?
+@naturecultureafrica,Great!! Thanks a lot ! -- > Could you make a course about Django + React js please ? How to link and work with them in the same project. That's would be awesome
+@akshaysharma145,"I can see a similar course on your website as well.
+
+Could you please explain how these two are different?"
+@hosseinkouhzad6646,proud of persian developers
+@edennkhwazi,Once again thanks. Been waiting for this one.
+@imrans.learning4u,Learn Pandas in 15 minutes: https://youtu.be/ypV5EFbFzk8
+@ujjawal5923,"I thought you'll make a playlist for React js , but are you making 1 video for complete react...Really ??"
+@meowmeowmeow1243,"This is so awesome, thank you so much Mosh!"
+@marius-mihailionte339,did you launch the new course about ReactJS?
+@bharat_thapa_,"Nice course!
+Love it."
+@birsingh5388,Another great stuff 👏
+@GaneshKumar-fv2cg,Does the price includes part2? When part2 will be coming?
+@kelvinkirwa4887,"Hello Mosh , after this take us though machine learning by building complex apps such as movie recommedation system  , loan lending apps , social media apps and so on . thanks much ."
+@Myndale,"I've just subscribed to this course and noticed that, unlike all the other courses I've purchased, the video download links are all missing. Is this just a temporary thing? Or are you dropping that feature from your paid courses now?"
+@kamauwaweru4991,"The long eagerly awaited course finally,Thenks be blessed"
+@surajghodke1033,Mosh thanks for the awesome course... Is this also include upcoming part 2? Or we have to purchase seperate part 2?
+@arnhav6090,EXACTLY WHAT I NEEDED. THANKS SO MUCH
+@jillrehab3414,Make next. Js app
+@joejunior6614,"Thanks for your education you are a Good Influencer and web educater too on your subject and in ethic.🙏👊
+Keep it up what you're doing is very Positive."
+@smoothbeak,Purchased
+@muhammadanasabbas6802,Mosh my First programming teacher
+@JahidHasan-kx5on,Thank you Mosh 🖤🖤
+@princesiachin279,Hello mosh.
+@ethanlal4517,"Mosh, plz do me a favour. I simply love Svelte and think its the best but sadly it isn't very popular and doesn't have a large community. As a result, people and companies can't use it in their projects as much as they want to. I might be asking too much but I would really appreciate it if you could create a free Svelte course on youtube because I believe it will really raise Svelte's popularity and give it the attention it deserves. Love ur vids, keep the good work on."
+@mehdichamiani6838,"Dear Moshfegh, Please let us know how we can buy your courses from Iran, as you already know we can not enroll in your courses by visa/master card as of now. Thanks man, and keep up the good work 🌹"
+@markabc178,Is this video about your new React course? Cant wait for it to release
+@rishiraj2548,Good day greetings
+@sam_fitness,"Hello developers,
+
+if you have to give React a funny name, what would it be?😁"
+@gowthamr2882,Angular 😢
+@kalyanipriyadarsini,Only 1hr???
+@OneworldKW,Cool
+@oyeSAURABH,Don't tell me we have to buy the next part.
+@MohammadMansourBone,We have been waiting for this for a long time 😁

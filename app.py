@@ -1,9 +1,23 @@
 import streamlit as st
 import os
+import re
+import csv
+import pandas as pd
+import streamlit as st
+import pandas as pd
+import numpy as np
+from urlextract import URLExtract
+import squarify 
+import matplotlib.pyplot as plt
+from collections import Counter
+import emoji
+import seaborn as sns
 from Senti import extract_video_id,analyze_sentiment,bar_chart,plot_sentiment
 from YoutubeCommentScrapper import save_video_comments_to_csv,get_channel_info,youtube,get_channel_id,get_video_stats
 
-
+def extract_emojis(text):
+  emoji_pattern = r"[^a-zA-Z0-9\s+\u00A0-\uD7FF\uE000-\uF8FF\uFB00-\uFEFE\uFF00-\uFFFF]"
+  return re.findall(emoji_pattern, text)
 
 def delete_non_matching_csv_files(directory_path, video_id):
     for file_name in os.listdir(directory_path):
@@ -12,7 +26,6 @@ def delete_non_matching_csv_files(directory_path, video_id):
         if file_name == f'{video_id}.csv':
             continue
         os.remove(os.path.join(directory_path, file_name))
-
 
 st.set_page_config(page_title='BE-PROJECT', page_icon = 'LOGO.png', initial_sidebar_state = 'auto')
 #st.set_page_config(page_title=None, page_icon=None, layout="centered", initial_sidebar_state="auto", menu_items=None)
@@ -142,7 +155,41 @@ if youtube_link:
         bar_chart(csv_file)
         
         plot_sentiment(csv_file)
-        
+
+        # Open the CSV file for reading
+        with open(csv_file, 'r', encoding='utf-8') as csvfile:
+            # Skip the header row (if it exists)
+            next(csvfile)
+            emojis = []
+            for row in csvfile:
+                comment = row.strip()  # Remove leading/trailing whitespace
+                # Extract emojis from the comment
+                comment_emojis = extract_emojis(comment)
+                emojis.extend(comment_emojis)
+
+        # Print or process the extracted emojis (consider creating a new list for unique emojis)
+        print(emojis)
+
+        # Example: Create a dictionary to count emoji occurrences
+        emoji_counts = {}
+        for emoji in emojis:
+            if emoji in emoji_counts:
+                emoji_counts[emoji] += 1
+            else:
+                emoji_counts[emoji] = 1
+
+        print(emoji_counts)
+
+        # Print the emojis
+        # print(emojis)
+        emoji_df=pd.DataFrame(Counter(emojis).most_common(len(Counter(emojis))))
+        col1,col2=st.columns(2)
+        with col1:
+            st.dataframe(emoji_df)
+        with col2:
+            fig,ax=plt.subplots()
+            ax.pie(emoji_df[1].head(19),labels=emoji_df[0].head(19),autopct="%0.2f")
+            st.pyplot(fig)
             
         st.subheader("Channel Description ")   
         channel_description = channel_info['channel_description']
